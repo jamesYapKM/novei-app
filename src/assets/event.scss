@@ -1,0 +1,213 @@
+@import "./breakpoint.sass";
+
+.logo {
+    height: 25px;
+    width: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.sec_banner {
+    background: radial-gradient(100% 133.79% at 100% 100%, #3F6F9A 0%, #0D2A4C 53.04%, #0A2039 100%);
+    padding: 40px 0;
+
+    @include min-md {
+        padding: 80px 0;
+    }
+
+    .banner {
+        &_main_title {
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 52px;
+            letter-spacing: 0.01em;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        &_sub_title_1 {
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 30px;
+            color: #fff;
+            margin: 10px 0 30px;
+        }
+
+    }
+
+    .div_banner_location {
+        &::after {
+            background: #2D8CFF;
+            width: 75px;
+            height: 9px;
+            border-radius: 0 12px 0 12px;
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -20px;
+        }
+
+        display: flex;
+        margin-bottom: 60px;
+        -webkit-box-align: center;
+        align-items: center;
+        position: relative;
+
+        .banner {
+            &_location {
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 30px;
+                color: #fff;
+                border-right: 1px solid rgba(192, 221, 255, 0.25);
+                padding-right: 20px;
+                margin-right: 20px;
+            }
+
+            &_date {
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 26px;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.sec_about {
+    padding: 40px 0;
+
+    p {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+}
+
+.sec_include {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+
+    p {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    ul {
+        margin-left: 15px;
+    }
+}
+
+.sec_timeline {
+    padding: 40px 0;
+    background: #0D2A4C;
+    color: #fff;
+
+    .timeline {
+        &_main_title {
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: "";
+                left: 0;
+                bottom: -4px;
+                width: 84px;
+                height: 4px;
+                background: #2D8CFF;
+                border-radius: 0;
+                animation: widthIncrease 0.5s;
+            }
+        }
+
+        &_title {}
+
+        &_container {
+            display: flex;
+            margin-bottom: 40px;
+            align-items: center;
+
+            @include sm {
+                align-items: flex-start;
+                flex-direction: column;
+            }
+
+            .timeline {
+                &_time {
+                    width: 200px;
+                }
+
+                &_description {
+                    border-left: 1px solid rgba(192, 221, 255, 0.2);
+                    padding-left: 40px;
+
+                    @include sm {
+                        padding-left: 20px;
+                        margin-left: 20px;
+                        margin-top: 20px;
+                    }
+
+                    .content {
+                        font-size: 16px;
+                    }
+
+                    p {
+                        margin-bottom: 15px;
+                    }
+
+                    ul {
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sec_speaker {
+    padding: 40px 0;
+
+    .speaker_subtitle {
+        @include min-md {
+            min-height: 60px;
+        }
+    }
+}
+
+.sec_register {
+    padding: 40px 0;
+
+    .register {
+        &_main_title {
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 42px;
+            margin-bottom: 20px;
+        }
+
+        &_sub_title {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+}
+
+.sec_footer {
+    background-color: #39394d;
+    color: #919191;
+    font-size: 11px;
+    padding: 10px;
+
+    .footer_links {
+        a {
+            color: #fff;
+            padding: 0 6px;
+            text-decoration: none;
+            &:not(:first-child) {
+                border-left: 1px solid rgba(255, 255, 255, 0.7);
+            }
+        }
+    }
+}

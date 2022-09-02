@@ -1,0 +1,60 @@
+// @use "sass:math"
+
+// media aliases and breakpoints
+$screen-sm-min: 600px
+$screen-md-min: 960px
+$screen-lg-min: 1264px
+$screen-xl-min: 1904px
+
+$screen-xs-max: 599px
+$screen-sm-max: 959px
+$screen-md-max: 1263px
+$screen-lg-max: 1903px
+$screen-xl-max: 5000px
+
+
+
+
+
+
+// media lt queries
+@mixin sm 
+  @media screen and (max-width: $screen-xs-max) 
+    @content
+  
+@mixin min-sm 
+  @media screen and (min-width: $screen-sm-min) 
+    @content
+
+@mixin md 
+  @media screen and (max-width: $screen-sm-max) 
+    @content
+  
+@mixin min-md 
+  @media screen and (min-width: $screen-md-min) 
+    @content
+
+@mixin lg 
+  @media screen and (max-width: $screen-md-max) 
+    @content
+  
+@mixin min-lg 
+  @media screen and (min-width: $screen-lg-min) 
+    @content
+
+@mixin xl 
+  @media screen and (max-width: $screen-lg-max) 
+    @content
+
+@mixin min-xl 
+  @media screen and (min-width: $screen-xl-min) 
+    @content
+
+
+@function pxtorem($px, $rem: 16)
+    @return ($px/$rem)+rem
+    // @return math.div($px, $rem)+rem
+
+
+@function pxtoem($px, $em: 16) 
+    @return ($px/ $em)+em

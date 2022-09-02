@@ -1,0 +1,33 @@
+{
+  "name": "zoom-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^6.0.1",
+    "@mdi/font": "5.9.55",
+    "@vuetify/vite-plugin": "^1.0.0-alpha.11",
+    "ant-design-vue": "^3.2.11",
+    "roboto-fontface": "*",
+    "unplugin-vue-components": "^0.22.4",
+    "vue": "^3.2.37",
+    "vue-i18n": "^9.2.2",
+    "vuetify": "^3.0.0-beta.9",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "less": "^4.1.3",
+    "sass": "^1.54.8",
+    "vite": "^3.0.8",
+    "vite-plugin-radar": "^0.5.0",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vue-cli-plugin-vuetify": "~2.5.5"
+  },
+  "type": "module"
+}
