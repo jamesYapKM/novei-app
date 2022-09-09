@@ -1,7 +1,7 @@
 <template>
   <v-row class="justify-center align-center">
-    <v-col cols="12" md="6">
-      <img :src="imageUrl('/about-the-edu-summit-event.png')" class="rounded-xl" />
+    <v-col cols="12" md="6" class="pr-md-6 text-center">
+      <img :src="imageUrl('/about.jpg')" class="rounded-xl" />
     </v-col>
     <v-col cols="12" md="6">
       <h1 class="about_title">{{ t("about title") }}</h1>

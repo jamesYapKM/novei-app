@@ -1,6 +1,6 @@
 <template>
-    <v-row class="v-row justify-center ">
-        <v-col md="6" cols="12" class="order-md-1 order-2">
+    <v-row class="">
+        <v-col md="8" lg="6" cols="12" class="order-md-1 order-2 col_banner_desc">
             <h1 class="banner_main_title">{{ t('banner title')}} </h1>
             <p class="banner_sub_title_1">{{ t('banner sub title')}} </p>
             <div class="div_banner_location">
@@ -9,9 +9,9 @@
             </div>
             <v-btn color="secondary" size="x-large" :href="register_url" target="_blank">{{t('register now')}}</v-btn>
         </v-col>
-        <v-col md="6" cols="12" class="order-md-2 order-1">
+        <!-- <v-col md="6" cols="12" class="order-md-2 order-1">
             <img :src="imageUrl('/edu_summit_img.png')" class="rounded-xl"/>
-        </v-col>
+        </v-col> -->
     </v-row>
 </template>
 

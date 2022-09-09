@@ -10,7 +10,7 @@
 
         <v-menu>
           <template v-slot:activator="{ props }">
-            <v-btn color="indigo" v-bind="props">{{ $i18n.locale }}</v-btn>
+            <v-btn icon color="primary" v-bind="props">{{ $i18n.locale }}</v-btn>
           </template>
           <v-list v-model="$i18n.locale">
             <v-list-item
@@ -18,6 +18,7 @@
               :key="`locale-${locale}`"
               :value="locale"
               @click="$i18n.locale = locale"
+              :disabled="locale == $i18n.locale"
             >
               <v-list-item-title>{{
                 t("language " + locale)
@@ -53,6 +54,11 @@
           <Timeline />
         </v-container>
       </section>
+      <section class="sec_free_gift">
+        <v-container>
+          <FreeGift />
+        </v-container>
+      </section>
       <Footer />
     </v-main>
     <ScrollToTop :offsetTop="isOffsetTop" />
@@ -71,6 +77,7 @@ import Section3 from "./section/section3.vue";
 import Timeline from "./section/timeline.vue";
 import Footer from "./section/footer.vue";
 import ScrollToTop from "./components/ScrollToTop.vue";
+import FreeGift from "./section/free-gift.vue";
 
 const drawer = ref(false);
 const { t } = useI18n();
