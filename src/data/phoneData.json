@@ -1,0 +1,33 @@
+{
+    "register_url": "https://zoom.us/",
+    "speakers": [
+        {
+            "image": "/speaker/inho-ho.jpg",
+            "name": "speaker inho name",
+            "description": "speaker inho description",
+            "url": ""
+        },
+        {
+            "image": "/speaker/wendy.png",
+            "name": "speaker wendy name",
+            "description": "speaker wendy description",
+            "url": ""
+        }
+    ],
+    "timelines": [
+        {
+            "date": "11:00am - 11:20am SGT",
+            "title": "phone.timeline title 1",
+            "description": "phone.timeline description 1",
+            "speaker": "speaker inho name",
+            "speaker_title": "speaker inho description"
+        },
+        {
+            "date": "11:20am - 12:00pm SGT",
+            "title": "phone.timeline title 2",
+            "description": "phone.timeline description 2",
+            "speaker": "speaker wendy name",
+            "speaker_title": "speaker wendy description"
+        }
+    ]
+}

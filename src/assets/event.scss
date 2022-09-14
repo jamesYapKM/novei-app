@@ -8,16 +8,27 @@
 img {
     max-width: 100%;
 }
-
-.sec_banner {
+.sec_phone_banner{
+    background: url('/android-zoom-phone-incoming-call.jpg'), radial-gradient(100% 133.79% at 100% 100%, #3F6F9A 0%, #0D2A4C 53.04%, #0A2039 100%);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    @include sm{
+        background-size: auto 100%, 100% 100%;
+        background-position: center top;
+    }
+}
+.sec_main_banner{
     background: url('/banner.png'), radial-gradient(100% 133.79% at 100% 100%, #3F6F9A 0%, #0D2A4C 53.04%, #0A2039 100%);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    padding: 40px 0;
     @include sm{
         background-size: auto 50%, 100% 100%;
         background-position: center top;
     }
+}
+.sec_banner {
+    padding: 40px 0;
     @include min-md {
         padding: 80px 0;
     }

@@ -39,8 +39,8 @@ export default {
 };
 </script>
 
-<style>
-  .btn-back-to-top{
+<style lang="scss">
+  .v-btn.btn-back-to-top{
     position: fixed;
     right: 10px;
     bottom: 20px;

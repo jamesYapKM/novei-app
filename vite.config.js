@@ -10,9 +10,9 @@ import { VitePluginRadar } from "vite-plugin-radar";
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
   return {
-    build: {
-      outDir: "zoomDist",
-    },
+    // build: {
+    //   outDir: "zoomDist",
+    // },
     resolve: {
       alias: {
         "~": path.resolve(__dirname, "./src"),

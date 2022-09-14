@@ -54,5 +54,19 @@
     "trust center": "Pusat Amanah",
     "legal and compliance": "Undang -undang & Pematuhan",
     "win gift title": "Menang Swags Awesome!",
-    "win gift description": "Sertai kami Live di <b>Semua tentang Zoom</b> Webinar untuk peluang untuk memenangi beberapa swag hebat!"
+    "win gift description": "Sertai kami Live di <b>Semua tentang Zoom</b> Webinar untuk peluang untuk memenangi beberapa swag hebat!",
+    "phone":{
+        "banner title": "Everything Zoom: Cloud Communication Made Easy",
+        "banner date": "05 October 2022",
+        "banner time": "11:00am - 12:00pm SGT",
+        "about title": "About the event",
+        "about description":"<p>Thinking about your overall cloud migration strategy? Join us for for an insightful  webinar where our Zoom Specialists will share  the evolution and landscape shift of Cloud Telephony, while providing tips and techniques to seamlessly migrate to a cloud-native phone deployment. </p><p>At Zoom, video is our favorite way to communicate, but sometimes a phone call is necessary - especially when you’re on the go. Zoom Phone, our new cloud phone service available as an add-on to Zoom’s platform, allows you to make and receive business calls from the same Zoom app you’re using today. </p><p>Join us to learn how you can start communicating how you want, anytime and anywhere.</p><p>Register today and come with questions! Don’t miss out, join this highly interactive hour of amazing content with plenty of opportunities for Q&A at the end.</p>",
+        "register main title": "Everything Zoom: ",
+        "register sub title": "Cloud Communication Made Easy",
+        "register today": "Register Today",
+        "timeline title 1": "Moving to the Cloud? What your telephony strategy should look like",
+        "timeline description 1":"<p>Thinking about your overall cloud migration strategy? Join us for for an insightful  webinar where our Zoom Specialists will share  the evolution and landscape shift of Cloud Telephony, while providing tips and techniques to seamlessly migrate to a cloud-native phone deployment. </p> <p>Discover:<ul><li>How to achieve business continuity and improve productivity for a remote workforce.</li><li>The ease of implementation and deployment in regards to a cloud phone system.</li><li>Benefits of moving to the cloud and operational efficiencies gained.</li><li>The agility that comes with deploying a single UCaaS platform vendor.</li></ul></p>",
+        "timeline title 2": "Zoom Phone101 ",
+        "timeline description 2": "<p>We launched Zoom Phone in January 2019 because we saw an opportunity to provide a cloud business phone solution that is as simple, reliable, and easy to use as our video platform. We’re proud to announce that we surpassed 4 million Zoom Phone seats sold worldwide this year! </p><p>Going from zero to 4 million licenses in just over four years is a testament to the growing need for a rich cloud telephony solution like Zoom Phone.</p><p>Whether you are a solo entrepreneur, leading a small-medium size business, or a large enterprise evaluating UCaaS vendors, this session will help you understand:</p><p><ul><li>The agility that comes with deploying a single UCaaS platform vendor.</li><li>How easily you can communicate from desktop and mobile applications as well as traditional desk phones with Zoom Phone.</li><li>How Zoom Phone connects globally regardless of location, time zone, or device.</li><li>About key Zoom Phone features, including the advanced admin dashboard experience, shared line appearance, call queues, power pack analytics, and more!</li></ul></p>"
+    }
 }
