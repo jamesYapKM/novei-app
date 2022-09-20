@@ -11,7 +11,7 @@ const i18n = createI18n({
   messages: {
     en: EnMessage,
     kr: KrMessage,
-    bm: BmMessage,
+    bi: BmMessage,
     vi: ViMessage
   }
 });
