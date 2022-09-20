@@ -32,6 +32,13 @@ import PhoneSection2 from "../section/PhoneSection2.vue";
 import PhoneSectionRegister from "../section/PhoneSectionRegister.vue";
 import PhoneTimeline from "../section/PhoneTimeline.vue";
 import PhoneSpeakers from "../section/PhoneSpeakers.vue";
+import { useMeta } from "vue-meta";
+import { useI18n } from "vue-i18n";
+
+const { t } = useI18n();
+const metaInfo = useMeta({
+  title: t('phone.banner title'),
+});
 </script>
 
 <style></style>

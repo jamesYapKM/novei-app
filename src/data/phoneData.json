@@ -8,9 +8,9 @@
             "url": ""
         },
         {
-            "image": "/speaker/wendy.png",
-            "name": "speaker wendy name",
-            "description": "speaker wendy description",
+            "image": "/speaker/jayraj.jpg",
+            "name": "speaker jayraj name",
+            "description": "speaker jayraj description",
             "url": ""
         }
     ],
@@ -26,8 +26,8 @@
             "date": "11:20am - 12:00pm SGT",
             "title": "phone.timeline title 2",
             "description": "phone.timeline description 2",
-            "speaker": "speaker wendy name",
-            "speaker_title": "speaker wendy description"
+            "speaker": "speaker jayraj name",
+            "speaker_title": "speaker jayraj description"
         }
     ]
 }

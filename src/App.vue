@@ -1,4 +1,7 @@
 <template>
+  <metainfo>
+    <template v-slot:title ="{ content }">{{ content ? `${content}` : `Everyting Zoom`}} </template>
+  </metainfo>
   <v-app v-scroll="onScroll">
     <AppLayout/>
     <ScrollToTop :offsetTop="isOffsetTop" />

@@ -39,6 +39,7 @@
 <script setup>
 import { ref } from "vue";
 import { useI18n } from "vue-i18n";
+import { useMeta } from "vue-meta";
 
 import Speakers from "~/section/speakers.vue";
 import Banner from "~/section/banner.vue";
@@ -50,6 +51,9 @@ import SectionRegister from "../section/sectionRegister.vue";
 
 const drawer = ref(false);
 const { t } = useI18n();
+const metaInfo = useMeta({
+  title: t('banner title'),
+});
 </script>
 
 <style></style>
