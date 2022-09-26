@@ -6,7 +6,7 @@
         color="secondary"
         size="x-large"
         class="mt-4"
-        @click="$router.push('/register')"
+        @click="$router.push({name:'register'})"
         >{{ t("event.register today") }}</v-btn
       >
     </v-col>
