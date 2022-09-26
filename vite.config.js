@@ -6,6 +6,7 @@ import vueI18n from "@intlify/vite-plugin-vue-i18n";
 // https://github.com/vuetifyjs/vuetify-loader/tree/next/packages/vite-plugin
 import vuetify from "vite-plugin-vuetify";
 import { VitePluginRadar } from "vite-plugin-radar";
+
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
@@ -46,5 +47,9 @@ export default defineConfig(({ mode }) => {
         include: path.resolve(__dirname, "./src/lang/*.json"),
       }),
     ],
+    ssr: {
+      // TODO: workaround until they support native ESM
+      noExternal: [/vue-i18n/, 'vuetify', 'vue-meta'],
+    },
   };
 });

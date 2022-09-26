@@ -1,4 +1,5 @@
 @import "./breakpoint.sass";
+@import '@fortawesome/fontawesome-free/css/all.css';
 
 .logo {
     height: 25px;
@@ -19,7 +20,7 @@ img {
     }
 }
 .sec_main_banner{
-    background: url('/banner.png'), radial-gradient(100% 133.79% at 100% 100%, #3F6F9A 0%, #0D2A4C 53.04%, #0A2039 100%);
+    background: url('/training-02-scaled.jpg'), radial-gradient(100% 133.79% at 100% 100%, #3F6F9A 0%, #0D2A4C 53.04%, #0A2039 100%);
     background-repeat: no-repeat;
     background-size: 100% auto;
     @include sm{
@@ -33,15 +34,15 @@ img {
         padding: 80px 0;
     }
     .col_banner_desc{
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(66, 140, 255,.75);
         border-radius: 30px;
         padding: 40px;
     }
     .banner {
         &_main_title {
             font-weight: 900;
-            font-size: 40px;
-            line-height: 52px;
+            font-size: pxtorem(30);
+            line-height: 1.2;
             letter-spacing: 0.01em;
             margin-bottom: 20px;
             color: #fff;
@@ -49,7 +50,7 @@ img {
 
         &_sub_title_1 {
             font-weight: normal;
-            font-size: 25px;
+            font-size: pxtorem(20);
             line-height: 30px;
             color: #fff;
             margin: 10px 0 30px;
@@ -57,9 +58,9 @@ img {
 
     }
 
-    .div_banner_location {
+    .div_banner_time_and_desc {
         &::after {
-            background: #2D8CFF;
+            background: #fff;
             width: 75px;
             height: 9px;
             border-radius: 0 12px 0 12px;
@@ -68,40 +69,52 @@ img {
             left: 0;
             bottom: -20px;
         }
-
-        display: flex;
-        margin-bottom: 60px;
-        -webkit-box-align: center;
-        align-items: center;
         position: relative;
+        margin-bottom: 30px;
+        .div_banner_time{
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            .banner {
+                &_location {
+                    font-weight: 900;
+                    font-size: pxtorem(24);
+                    line-height: 30px;
+                    color: #fff;
+                    border-right: 1px solid rgba(192, 221, 255, 0.25);
+                    padding-right: 20px;
+                    margin-right: 20px;
+                }
 
-        .banner {
-            &_location {
-                font-weight: 900;
-                font-size: 24px;
-                line-height: 30px;
-                color: #fff;
-                border-right: 1px solid rgba(192, 221, 255, 0.25);
-                padding-right: 20px;
-                margin-right: 20px;
-            }
-
-            &_date {
-                font-weight: normal;
-                font-size: 20px;
-                line-height: 26px;
-                color: #fff;
+                &_date {
+                    font-weight: normal;
+                    font-size: pxtorem(20);
+                    line-height: 26px;
+                    color: #fff;
+                }
             }
         }
+        .div_time_descriprion{
+            color: #fff;
+            margin-bottom: 30px;
+        }
     }
+    .div_banner_location{
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    
 }
 
 .sec_about {
     padding: 40px 0;
-
     p {
         margin-top: 30px;
-        font-size: 16px;
+        font-size: pxtorem(16);
+    }
+    ul {
+        margin-left: 20px;
     }
 }
 
@@ -111,11 +124,11 @@ img {
 
     p {
         margin-top: 30px;
-        font-size: 16px;
+        font-size: pxtorem(16);
     }
 
     ul {
-        margin-left: 15px;
+        margin-left: 20px;
     }
 }
 
@@ -169,7 +182,7 @@ img {
                     }
 
                     .content {
-                        font-size: 16px;
+                        font-size: pxtorem(16);
                     }
 
                     p {
@@ -202,14 +215,14 @@ img {
     .register {
         &_main_title {
             font-weight: 900;
-            font-size: 36px;
+            font-size: pxtorem(36);
             line-height: 42px;
             margin-bottom: 20px;
         }
 
         &_sub_title {
             font-weight: normal;
-            font-size: 14px;
+            font-size: pxtorem(14);
             line-height: 24px;
         }
     }
@@ -218,7 +231,7 @@ img {
 .sec_footer {
     background-color: #39394d;
     color: #919191;
-    font-size: 11px;
+    font-size: pxtorem(11);
     padding: 10px;
 
     .footer_links {
@@ -257,5 +270,32 @@ img {
     to {
         bottom: 20px;
         opacity: 1;
+    }
+}
+
+
+
+a.social-share {
+    /* margin: auto; */
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    display: inline-block;
+    /* align-items: center; */
+    text-align: center;
+    margin-left: 3px;
+    vertical-align: middle;
+    text-decoration: none;
+
+    i.share-icon{
+        color: #fff;
+        display: inline-flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        &::before{
+            line-height: 100%;
+        }
+
     }
 }

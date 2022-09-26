@@ -70,5 +70,43 @@
         "timeline description 1":"<p>Thinking about your overall cloud migration strategy? Join us for for an insightful  webinar where our Zoom Specialists will share  the evolution and landscape shift of Cloud Telephony, while providing tips and techniques to seamlessly migrate to a cloud-native phone deployment. </p> <p>Discover:<ul><li>How to achieve business continuity and improve productivity for a remote workforce.</li><li>The ease of implementation and deployment in regards to a cloud phone system.</li><li>Benefits of moving to the cloud and operational efficiencies gained.</li><li>The agility that comes with deploying a single UCaaS platform vendor.</li></ul></p>",
         "timeline title 2": "Zoom Phone101 ",
         "timeline description 2": "<p>We launched Zoom Phone in January 2019 because we saw an opportunity to provide a cloud business phone solution that is as simple, reliable, and easy to use as our video platform. We’re proud to announce that we surpassed 4 million Zoom Phone seats sold worldwide this year! </p><p>Going from zero to 4 million licenses in just over four years is a testament to the growing need for a rich cloud telephony solution like Zoom Phone.</p><p>Whether you are a solo entrepreneur, leading a small-medium size business, or a large enterprise evaluating UCaaS vendors, this session will help you understand:</p><p><ul><li>The agility that comes with deploying a single UCaaS platform vendor.</li><li>How easily you can communicate from desktop and mobile applications as well as traditional desk phones with Zoom Phone.</li><li>How Zoom Phone connects globally regardless of location, time zone, or device.</li><li>About key Zoom Phone features, including the advanced admin dashboard experience, shared line appearance, call queues, power pack analytics, and more!</li></ul></p>"
+    },
+    "event":{
+        "banner title": "Elevating your digital offerings to adapt to changing customer expectations",
+        "banner date": "November 3rd",
+        "banner time": "4:00 p.m. to 6:00 p.m. SGT",
+        "banner description": "includes networking drinks",
+        "banner location": "ACE Ideation Centre <br/>79 Ayer Rajah Crescent <br/>#01-13 JTC LaunchPad &#64;one-north <br/>Singapore, 139955",
+        "about title": "About the event",
+        "about description": "<p>The recent pandemic accelerated the digital transformation that has been underway for decades. Video conferencing has become an integral part of our everyday life, and it’s here to stay:  <ul><li>Education institutions increasingly use videos to enhance the learning experience and engagement of remote students. </li><li> Healthcare providers launch video-enabled telehealth for greater reach, improved patient outcomes, and lasting cost savings.  </li><li>Financial institutions extend video calling capabilities to enhance interactions, improve customer outcomes, and increase sales opportunities.</ul></p><p>Marrying growth, innovation, and increasing operating efficiency together by elevating your digital offering can shape the customers' journey from start to end, providing them an improved and innovative experience.</p>",
+        "join us title": "Join Us Now",
+        "join us description": "<p>Join us as we invite industry leaders to discuss how you can bridge the digital gap by elevating your digital offerings to adapt to changing customer expectations, what it means for your startup business, and how it has changed the landscape for both growth and the customer experience in the region.</p><p>We are going to dive deep on: <ul><li>How tech-savvy customers interact with brands via various channels.</li><li> How startups can also take the lead in innovation and leverage unified communications to support the customer regardless of the platform or channels they are currently on. </li><li> How to improve customer retention, increase operating efficiency and set new standards for customer service and satisfaction. </li><li>Video is no longer a perk - it’s an expectation, how can startups  access new markets by leveraging -video communications market trends.</li></ul></p>",
+        "moderator": "Moderator",
+        "speaker xav name": "Xav Desmet",
+        "speaker xav description": "the Head of Digital Natives, Asia of Zoom",
+        "speaker hardham name": "Lee Hardham",
+        "speaker hardham description": "the Founder and CEO of Brauz",
+        "speaker zhibo name": "Zhibo Sun",
+        "speaker zhibo description": "the Chief Product Officer for LingoAce",
+        "timeline title 1": "Registration",
+        "timeline title 2": "Speech by ACE",
+        "timeline title 3": "Panel discussion",
+        "timeline title 4": "Networking drinking session",
+        "register main title": "Elevating your digital offerings to adapt to changing customer expectations",
+        "register today": "Register Today"
+    },
+    "registration":{
+        "tnc":"Information you provide when registering will be shared with the <a href='https://support.zoom.us/hc/en-us/articles/360059564372-In-Product-Privacy-Notifications' target='_blank'>account owner</a> and host and can be used and shared by them in accordance with their Terms and Privacy Policy.",
+        "first name":"First Name",
+        "last name":"Last Name",
+        "email":"Email Address",
+        "confirm email": "Confirm Email Address",
+        "country": "Country/Region",
+        "phone":"Phone",
+        "organization": "Organization",
+        "job title":"Job Title",
+        "industry classification":"Industry Classification",
+        "number of employees":"Number Of Employees",
+        "register":"register"
     }
 }

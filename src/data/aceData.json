@@ -1,0 +1,42 @@
+{
+    "speakers": [
+        {
+          "image": "/speaker/people.jpg",
+          "name": "event.speaker hardham name",
+          "description": "event.speaker hardham description"
+        },
+        {
+          "image": "/speaker/people.jpg",
+          "name": "event.speaker zhibo name",
+          "description": "event.speaker zhibo description",
+          "url": ""
+        }
+    ],
+    "moderators":[
+      {
+        "image": "/speaker/xav.jpg",
+        "name": "event.speaker xav name",
+        "description": "event.speaker xav description",
+        "url": ""
+      }
+    ],
+    "timelines":[{
+        "date": "3:45pmm SGT",
+        "title": "event.timeline title 1"
+      },
+      {
+        "date": "4:00pm SGT",
+        "title": "event.timeline title 2"
+      },
+      {
+        "date": "4:15pm SGT",
+        "title": "event.timeline title 3"
+      },
+      
+      {
+        "date": "5:00pm SGT",
+        "title": "event.timeline title 4"
+      }
+    ],
+    "register_url": "https://events.learnzoom.training/ace"
+}

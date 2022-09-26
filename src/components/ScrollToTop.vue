@@ -1,18 +1,24 @@
 <template>
-  <v-fab-transition>
-    <v-btn v-if="!offsetTop"
-      color="primary"
-      icon
-      @click.stop="scrollToTop"
-      class="btn-back-to-top"
-    >
-      <v-icon>mdi-chevron-up</v-icon>
-    </v-btn>
-  </v-fab-transition>
+  <ClientOnly>
+    <v-fab-transition>
+      <v-btn v-if="!offsetTop"
+        color="primary"
+        icon
+        @click.stop="scrollToTop"
+        class="btn-back-to-top"
+      >
+        <v-icon>mdi-chevron-up</v-icon>
+      </v-btn>
+    </v-fab-transition>
+  </ClientOnly>
 </template>
 
 <script>
+import { ClientOnly } from "~/components/ClientOnly";
 export default {
+  components:{
+    ClientOnly
+  },
   data() {
     return {
       options:{

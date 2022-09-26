@@ -7,7 +7,7 @@
         <!-- <v-btn class="text-white bg-primary mr-2" flat>{{ t("login") }}</v-btn>
         <v-btn class="text-white bg-secondary" flat>{{ t("sign up") }}</v-btn> -->
 
-        <v-menu>
+        <!-- <v-menu>
           <template v-slot:activator="{ props }">
             <v-btn icon color="primary" v-bind="props">{{ $i18n.locale }}</v-btn>
           </template>
@@ -24,7 +24,7 @@
               }}</v-list-item-title>
             </v-list-item>
           </v-list>
-        </v-menu>
+        </v-menu> -->
       </template>
     </v-app-bar>
     <v-main>

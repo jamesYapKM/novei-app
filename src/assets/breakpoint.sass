@@ -52,9 +52,9 @@ $screen-xl-max: 5000px
 
 
 @function pxtorem($px, $rem: 16)
-    @return ($px/$rem)+rem
+    @return calc($px/$rem)+rem
     // @return math.div($px, $rem)+rem
 
 
 @function pxtoem($px, $em: 16) 
-    @return ($px/ $em)+em
+    @return calc($px/ $em)+em
