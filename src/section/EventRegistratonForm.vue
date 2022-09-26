@@ -7,7 +7,7 @@
           :network="network.network"
           :key="network.network"
           :style="{ backgroundColor: network.color }"
-          :url="sharing.url"
+          :url="path"
           :title="sharing.title"
           :description="sharing.description"
           :quote="sharing.quote"
@@ -17,10 +17,6 @@
           <i :class="network.icon"></i>
         </ShareNetwork>
       </span>
-      <AlertErrors
-        :form="form"
-        message="There were some problems with your input."
-      />
     </v-col>
     <v-col cols="12" md="6">
       <v-text-field
@@ -160,6 +156,17 @@
         >{{ t("registration.register") }}</v-btn
       >
     </v-col>
+    <v-col cols="12">
+      <v-alert
+        v-if="form.errors.any()"
+        density="comfortable" type="error" variant="tonal"
+      >
+        There were some problems with your input.
+      </v-alert>
+      <v-alert v-if="success" density="comfortable" type="success" variant="tonal">
+        Register successfully.
+      </v-alert>
+    </v-col>
   </v-row>
 </template>
 <script>
@@ -170,21 +177,23 @@ import CountryList from "~/data/country.json";
 import { useI18n } from "vue-i18n";
 import Form from "vform";
 import { AlertError } from "vform/src/components/tailwind";
-import { useRouter } from 'vue-router'
+import { useRoute } from "vue-router";
+import { register_url } from "~/data/eventData.json";
+import { computed } from '@vue/runtime-core';
 
-const router = useRouter()
-
-let currentPathObject = router?.currentRoute?.value; 
 
 export default {
   setup() {
     const { t } = useI18n();
-    return { t, CountryList };
+    const route = useRoute();
+    const path = computed(() => import.meta.env.VITE_baseUrl + route.fullPath)
+    return { t, CountryList, path };
   },
   components: {
     AlertError,
   },
   data: () => ({
+    success: false,
     form: new Form({
       firstname: "",
       lastname: "",
@@ -218,7 +227,6 @@ export default {
       "More than 10,000",
     ],
     sharing: {
-      url: currentPathObject,
       title:
         "Elevating your digital offerings to adapt to changing customer expectations",
       description: `Join us for the “Elevating your digital offerings to adapt to changing customer expectations” event and learn how you can take advantage of video technology to improve customer retention, increase operating efficiency, and more.03 November 2022 | 4:00pm - 6:00pm SGT
@@ -262,12 +270,18 @@ Singapore 139955`,
   methods: {
     async onSubmit() {
       await this.form
-        .post("/api/login")
+        .post(register_url)
         .then((response) => {
           console.log(response);
+          this.success = true;
+          this.form.clear();
+          this.form.reset();
         })
         .catch(({ response }) => {
           console.log(response);
+          if (response.status == 422) {
+            this.form.errors.set(response.data.errors);
+          }
         });
       // ...
     },

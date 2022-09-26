@@ -113,5 +113,5 @@
         "speaker_title": "speaker kapur description"
       }
     ],
-    "register_url": "https://zoom.us/webinar/register/WN_crgQ2s73T6-9XYoYKx8AYA"
+    "register_url": "http://laravel-9.test/api/register"
 }
