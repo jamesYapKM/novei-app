@@ -67,7 +67,7 @@
       />
     </v-col>
     <v-col cols="12" md="6">
-      <v-autocomplete
+      <v-select
         v-model="form.country"
         :items="CountryList"
         :label="t('registration.country')"
@@ -79,7 +79,7 @@
             attribute: t('registration.country'),
           })
         "
-      ></v-autocomplete>
+      ></v-select>
     </v-col>
     <v-col cols="12" md="6">
       <v-text-field
@@ -120,7 +120,7 @@
   </v-row>
   <v-row>
     <v-col cols="12" md="6">
-      <v-autocomplete
+      <v-select
         v-model="form.industry"
         :items="industryClassifies"
         :label="t('registration.industry classification')"
@@ -130,10 +130,10 @@
             attribute: t('registration.industry classification'),
           })
         "
-      ></v-autocomplete>
+      ></v-select>
     </v-col>
     <v-col cols="12" md="6">
-      <v-autocomplete
+      <v-select
         v-model="form.noe"
         :items="noes"
         :label="t('registration.number of employees')"
@@ -143,7 +143,7 @@
             attribute: t('registration.number of employees'),
           })
         "
-      ></v-autocomplete>
+      ></v-select>
     </v-col>
   </v-row>
   <v-row>
