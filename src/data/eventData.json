@@ -113,5 +113,5 @@
         "speaker_title": "speaker kapur description"
       }
     ],
-    "register_url": "http://laravel-9.test/api/register"
+    "register_url": "https://api.kehlmannberleys.com/api/register"
 }
