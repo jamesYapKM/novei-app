@@ -3,7 +3,7 @@
       <template slot:default class="v-toolbar__content v-container">
         <img class="ace-logo" src="/ace_logo.jpg" style="height: 50px;">
         <v-spacer></v-spacer>
-        <img class="logo" src="/logo.png" />        
+        <img class="logo" src="/logo-blue.svg" />        
         <!-- <v-btn class="text-white bg-primary mr-2" flat>{{ t("login") }}</v-btn>
         <v-btn class="text-white bg-secondary" flat>{{ t("sign up") }}</v-btn> -->
 

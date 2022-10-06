@@ -159,11 +159,18 @@
     <v-col cols="12">
       <v-alert
         v-if="form.errors.any()"
-        density="comfortable" type="error" variant="tonal"
+        density="comfortable"
+        type="error"
+        variant="tonal"
       >
         There were some problems with your input.
       </v-alert>
-      <v-alert v-if="success" density="comfortable" type="success" variant="tonal">
+      <v-alert
+        v-if="success"
+        density="comfortable"
+        type="success"
+        variant="tonal"
+      >
         Register successfully.
       </v-alert>
     </v-col>
@@ -179,14 +186,13 @@ import Form from "vform";
 import { AlertError } from "vform/src/components/tailwind";
 import { useRoute } from "vue-router";
 import { register_url } from "~/data/eventData.json";
-import { computed } from '@vue/runtime-core';
-
+import { computed } from "@vue/runtime-core";
 
 export default {
   setup() {
     const { t } = useI18n();
     const route = useRoute();
-    const path = computed(() => import.meta.env.VITE_baseUrl + route.fullPath)
+    const path = computed(() => import.meta.env.VITE_baseUrl + route.fullPath);
     return { t, CountryList, path };
   },
   components: {
@@ -207,13 +213,27 @@ export default {
       noe: null,
     }),
     industryClassifies: [
+      "Advertising",
+      "Biotech/Pharma",
+      "Communications",
+      "Construction",
+      "Education - Higher-Ed",
+      "Education - K-12",
+      "Education - Other",
+      "Entertainment",
+      "Finance & Insurance",
+      "Government",
+      "Healthcare",
+      "Hospitality",
+      "Legal",
+      "Manufacturing",
       "Non-profit",
+      "Other",
       "Professional Services & Consulting",
       "Real Estate",
       "Retail/Wholesale",
       "Technology",
       "Transportation",
-      "Other",
     ],
     noes: [
       "Just me",
