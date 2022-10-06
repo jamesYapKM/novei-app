@@ -1,12 +1,17 @@
 {
     "speakers": [
         {
-          "image": "/speaker/people.jpg",
-          "name": "event.speaker hardham name",
-          "description": "event.speaker hardham description"
+          "image": "/speaker/kapur.png",
+          "name": "speaker kapur name",
+          "description": "speaker kapur description"
         },
         {
-          "image": "/speaker/people.jpg",
+          "image": "/speaker/ajey.jpg",
+          "name": "event.speaker ajey name",
+          "description": "event.speaker ajey description"
+        },
+        {
+          "image": "/speaker/zhibo.jpg",
           "name": "event.speaker zhibo name",
           "description": "event.speaker zhibo description",
           "url": ""
