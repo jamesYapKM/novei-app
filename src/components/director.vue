@@ -10,7 +10,7 @@
         <div class="v-col-9 pa-0">
           <v-card-title class="pa-0"> {{ t(item.name) }} </v-card-title>
           <div class="div_speaker_subtitle">
-            <p class="speaker_subtitle subtitle-2 text-grey-darken-1">{{ t(item.description) }}</p>
+            <p class="speaker_subtitle subtitle-2 text-grey-darken-1" v-html="t(item.description)"></p>
           </div>
         </div>
       </div>
