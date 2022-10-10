@@ -109,6 +109,7 @@
         "job title":"Job Title",
         "industry classification":"Industry Classification",
         "number of employees":"Number Of Employees",
+        "ace member":"Are you an ACE member?",
         "register":"register"
     },
     "s_validation":{

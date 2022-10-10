@@ -145,6 +145,19 @@
         "
       ></v-select>
     </v-col>
+    <v-col cols="12" md="6">
+      <v-select
+        v-model="form.ace"
+        :items="yesNoItem"
+        :label="t('registration.ace member')"
+        :error="form.errors.has('ace')"
+        :error-messages="
+          t(form.errors.get('ace') || '', {
+            attribute: t('registration.ace member'),
+          })
+        "
+      ></v-select>
+    </v-col>
   </v-row>
   <v-row>
     <v-col cols="12">
@@ -205,12 +218,13 @@ export default {
       lastname: "",
       email: "",
       confirmEmail: "",
-      country: null,
+      country: "Singapore",
       phone: "",
       organization: "",
       job: "",
       industry: null,
       noe: null,
+      ace: "No"
     }),
     industryClassifies: [
       "Advertising",
@@ -245,6 +259,10 @@ export default {
       "1,001-5,0000",
       "5,001-10,000",
       "More than 10,000",
+    ],
+    yesNoItem:[
+      "Yes",
+      "No"
     ],
     sharing: {
       title:
