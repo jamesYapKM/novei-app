@@ -39,13 +39,13 @@ export default defineConfig(({ mode }) => {
       //   // add option {resolveIcons: true} as parameter for resolving problem with icons
       //   resolvers: [Vuetify3Resolver({ importStyle: "less" })],
       // }),
-      /*vueI18n({
+      vueI18n({
         // if you want to use Vue I18n Legacy API, you need to set `compositionOnly: false`
         // compositionOnly: false,
 
         // you need to set i18n resource including paths !
         include: path.resolve(__dirname, "./src/lang/*.json"),
-      }),*/
+      }),
     ],
     ssr: {
       // TODO: workaround until they support native ESM
