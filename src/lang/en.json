@@ -1,4 +1,4 @@
-{"message":{
+{
     "language en": "English",
     "language kr": "Korean",
     "language bi": "Bahasa",
@@ -115,4 +115,4 @@
     "s_validation": {
         "required": "This field is required."
     }
-}}
+}
