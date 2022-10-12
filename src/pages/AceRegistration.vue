@@ -31,6 +31,8 @@ import EventRegistratonForm from '~/section/EventRegistratonForm.vue';
 import EventSpeakers from "~/section/EventSpeakers.vue";
 import EventModerator from "~/section/EventModerator.vue";
 
+import "~/assets/event.scss";
+
 const { t } = useI18n();
 const metaInfo = useMeta({
   title: t('event.banner title'),

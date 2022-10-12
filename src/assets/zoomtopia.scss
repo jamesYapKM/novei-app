@@ -1,0 +1,452 @@
+@import "./breakpoint.sass";
+
+.header {
+    &.stack {}
+}
+
+.sec_banner {
+    padding-top: calc(175px + 45 * ((100vw - 420px) / 980));
+    padding-bottom: calc(100px + 100 * ((100vw - 420px) / 980));
+    position: relative;
+    background-color: #030411;
+
+    @include sm {
+        padding-top: 175px;
+        padding-bottom: 100px;
+    }
+
+    @include min-lg {
+        padding-top: 220px;
+        padding-bottom: 200px;
+    }
+
+    &:before {
+        content: "";
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(#000, transparent);
+        z-index: 1;
+    }
+
+    .div_top_banner_image {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+
+        .Gradient {
+            width: 100%;
+            height: 80%;
+        }
+
+        .Images {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            max-width: 1920px;
+            height: 100%;
+
+            .Moon {
+                position: absolute;
+                top: 10%;
+                left: -40%;
+                max-width: 320px;
+
+                @include min-sm {
+                    left: -25%;
+                    max-width: calc(100vw / 2);
+                }
+
+                @include min-md {
+                    left: -10%;
+                }
+
+                @include min-lg {
+                    max-width: 600px;
+                }
+            }
+
+            .Circle {
+                position: absolute;
+                bottom: 15%;
+                left: -35%;
+                max-width: 280px;
+
+                @include min-sm {
+                    left: -22%;
+                    max-width: calc(100vw / 2);
+                }
+
+                @include min-md {
+                    left: -10%;
+                }
+
+                @include min-lg {
+                    left: -15%;
+                    max-width: 500px;
+                }
+            }
+
+            .Build {
+                position: absolute;
+                top: 0%;
+                right: -28%;
+                max-width: 240px;
+
+                @include min-sm {
+                    right: -20%;
+                    max-width: 280px;
+                }
+
+                @include min-md {
+                    right: -10%;
+                }
+
+                @include min-lg {
+                    max-width: 340px;
+                }
+            }
+        }
+    }
+
+    .div_banner_content {
+        text-align: center;
+        position: relative;
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+
+        .Image {
+            width: 100%;
+            max-width: calc(360px + 570 * ((100vw - 420px) / 980));
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: calc(20px + 0 * ((100vw - 420px) / 980));
+
+            @include sm {
+                margin-bottom: 20px;
+                max-width: 360px;
+            }
+
+            @include min-lg {
+                margin-bottom: 20px;
+                max-width: 930px;
+            }
+        }
+
+        .h_title {
+            color: #FFFFFF;
+            font-size: pxtorem(42);
+            font-weight: 900;
+            line-height: 1.2;
+        }
+
+        .h_subtitle {
+            color: #FFFFFF;
+            font-size: pxtorem(30);
+            font-weight: 700;
+            line-height: 1.5;
+            margin-bottom: pxtorem(60);
+        }
+
+        .p_date {
+            font-size: pxtorem(20);
+            color: #FFFFFF;
+            font-weight: 900;
+            margin-bottom: 15px;
+        }
+
+        .div_box_buttons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+
+        }
+    }
+}
+
+.zoom_btn {
+    font-size: pxtorem(22);
+    margin: 20px 10px;
+    background-color: #823de2;
+    border: 4px solid #823de2;
+    color: #FFFFFF !important;
+    padding: 16px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    min-width: calc(200px + 60 * ((100vw - 420px) / 980));
+    font-weight: bold;
+
+    &.btn_self {}
+
+    &.btn_monti {
+        background-color: transparent;
+        color: #FFFFFF !important;
+    }
+
+    &:hover {
+        background-color: #681fcd;
+    }
+}
+
+.sec_overall {
+    color: #FFFFFF;
+    background: #3f3978 url('/topia/about.jpg') no-repeat center center;
+    font-size: pxtorem(22);
+    padding: 100px 0;
+
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+.sec_speakers {
+    padding-top: calc(100px + 50 * ((100vw - 420px) / 980));
+    padding-bottom: calc(100px + 50 * ((100vw - 420px) / 980));
+    background-color: #030411;
+    position: relative;
+    overflow: hidden;
+    color: #FFFFFF;
+
+    @include sm {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    @include min-lg {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .div_speakers_background,
+    .div_agenda_background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(/topia/bg-speakers.png) no-repeat top center;
+        background-size: cover;
+
+        .Images {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 100%;
+            height: 100%;
+            max-width: 1920px;
+            transform: translateX(-50%);
+
+            .Circle {
+                position: absolute;
+                top: 5%;
+                left: 50%;
+                transform: translateX(-50%);
+                max-width: 550px;
+            }
+
+            .Square {
+                position: absolute;
+                top: 20%;
+                left: -20%;
+                max-width: 200px;
+
+                @include min-md {
+                    top: 5%;
+                    left: -12%;
+                    max-width: calc(100vw / 4);
+                }
+
+                @include min-lg {
+                    max-width: 553px
+                }
+            }
+
+            .Cube {
+                position: absolute;
+                top: 50%;
+                right: -20%;
+                max-width: 200px;
+
+                @include min-md {
+                    top: 5%;
+                    right: -15%;
+                    max-width: 300px;
+                }
+
+                @include min-lg {
+                    max-width: 360px;
+                }
+            }
+
+        }
+    }
+
+    .div_agenda_background {
+        background: #765CD7;
+    }
+
+    .div_speakers {
+        z-index: 1;
+        position: relative;
+
+        .speakers_header {
+            font-size: pxtorem(42);
+            font-weight: 900;
+            color: #FFFFFF;
+            margin-bottom: 25px;
+            line-height: 1.2;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .speaker_list {
+            .speaker {
+                cursor: pointer;
+                &_img { }
+
+                &_desc {}
+
+                &_name {
+                }
+
+                &_title {
+                }
+
+                &_company {
+                }
+            }
+        }
+    }
+
+}
+
+.speaker_model {
+    color: #FFFFFF;
+    background: linear-gradient(#765CD7, #746BD4, #69BBC9);
+}
+.speaker_list,.speaker_model {
+    .speaker {
+        &_img {
+            margin-bottom: 20px;
+        }
+
+        &_desc {
+            padding: 0 10px;
+        }
+
+        &_name {
+            font-size: pxtorem(28);
+            font-weight: bold;
+            line-height: 1.5;
+        }
+
+        &_title {
+            font-size: pxtorem(22);
+            line-height: 1.5;
+        }
+
+        &_company {
+            font-size: pxtorem(22);
+            line-height: 1.5;
+        }
+    }
+    p{
+        margin-bottom: 20px;
+    }
+}
+
+.sec_join_us{
+    color: #FFFFFF;
+    background: #030411 url('/topia/mountains.png') no-repeat center bottom;
+    padding: 100px 10px;
+    .register {
+        &_main_title {
+            font-weight: 900;
+            font-size: pxtorem(36);
+            line-height: 42px;
+            margin-bottom: 20px;
+        }
+
+        &_sub_title {
+            font-weight: normal;
+            font-size: pxtorem(20);
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.sec_agenda{
+    .timeline {
+        &_main_title {
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: "";
+                left: 0;
+                bottom: -4px;
+                width: 84px;
+                height: 4px;
+                background: #2D8CFF;
+                border-radius: 0;
+                animation: widthIncrease 0.5s;
+            }
+        }
+
+        &_title {}
+
+        &_container {
+            background-color: #bd318f;
+            border-radius: 5px;
+            display: flex;
+            margin-bottom: 40px;
+            align-items: center;
+
+            @include sm {
+                align-items: flex-start;
+                flex-direction: column;
+            }
+
+            .timeline {
+                &_time {
+                    width: 200px;
+                }
+
+                &_description {
+                    border-left: 1px solid rgba(192, 221, 255, 0.2);
+                    padding-left: 40px;
+
+                    @include sm {
+                        padding-left: 20px;
+                        margin-top: 20px;
+                    }
+
+                    .content {
+                        font-size: pxtorem(16);
+                    }
+
+                    p {
+                        margin-bottom: 15px;
+                    }
+
+                    ul {
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

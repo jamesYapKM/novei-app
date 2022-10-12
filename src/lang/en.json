@@ -112,6 +112,38 @@
         "ace member": "Are you an ACE member?",
         "register": "register"
     },
+    "zoomtopia":{
+        "title": "Explore New Dimensions",
+        "subtitle": "Zoomtopia Singapore 2022",
+        "date": "17 November 2022",
+        "location": "2 Collyer Quay, Singapore 049327",
+        "speaker benedict name": "Benedict Tan",
+        "speaker benedict title": "Group Chief Digital Strategy Officer & Chief Data Officer",
+        "speaker benedict company": "Singapore Health Services (SingHealth)",
+        "speaker benedict description": "<p>As GCDSO for SingHealth, Mr Tan main role is to enable and guide SingHealth in leveraging digital capabilities to improve service and care delivery.   He is responsible to manage the overall digital strategy and the patient’s digital experience. Under his Division of Digital Strategy, he has the Office of Academic Informatics (OAI), Office of Insights and Analytics (OIA), Office of Cyber and Information Security (OCIS) and Office of Data Governance and IT Compliance (ODGIC).   He is responsible for IT delivery and support, cybersecurity, analytics and data governance.</p>",
+        "speaker rakhmadhani name": "Muhammad Rakhmadhani",
+        "speaker rakhmadhani title": "Chief of Change Management Office",
+        "speaker rakhmadhani company": "PT. Bank Victoria International, Tbk",
+        "speaker rakhmadhani description": "<p>As GCDSO for SingHealth, Mr Tan main role is to enable and guide SingHealth in leveraging digital capabilities to improve service and care delivery.   He is responsible to manage the overall digital strategy and the patient’s digital experience. Under his Division of Digital Strategy, he has the Office of Academic Informatics (OAI), Office of Insights and Analytics (OIA), Office of Cyber and Information Security (OCIS) and Office of Data Governance and IT Compliance (ODGIC).   He is responsible for IT delivery and support, cybersecurity, analytics and data governance.</p>",
+        "speaker kapur name": "Ricky Kapur",
+        "speaker kapur title": "Head of Asia Pacific",
+        "speaker kapur company": "Zoom",
+        "speaker kapur description": "<p>Ricky Kapur is Head of APAC for Zoom, bringing over 25 years of experience to his role. </p><p>Prior to joining Zoom, Kapur was Vice President of Sales and Marketing Operations at Microsoft APAC. In his role, he managed all segments, from SMB and Majors up to Enterprise and led a cross-functional team of Sales, Marketing, Partner and Customer Success and Operations professionals.  </p><p>Before joining Microsoft, Kapur served as Managing Director at Google where he was responsible for overseeing growth of Google Cloud Platform across APJ. Prior to that, Kapur held the position of Vice President, ASEAN Technology Sales at Oracle. He also worked at Siebel Systems, Unica Corporation, and Chordiant Software.  </p><p>Kapur is a chartered accountant from the Institute of Chartered Accountants in India and holds an MBA from the University of Melbourne. </p>",
+        "speaker lucas name": "Lucas Lu",
+        "speaker lucas title": "Head of Asia",
+        "speaker lucas company": "Zoom",
+        "speaker lucas description": "<p>Lucas leads the multi-territory Asia region, comprising ASEAN, South Korea, Hong Kong and Taiwan. </p><p>He has end-to-end responsibility for the five customer business segments: Enterprise, Majors, Commercial, SMB and Digital Natives and drives the strategy, Go-to-Market and sales execution to engage with customers in enhancing their customer and employee experience, and providing the optimal choice for their communications needs. </p><p> Lucas has a successful career with proven leadership traits and a track record of excellent achievements and accomplishments.  He is a dynamic leader who balances strategic vision with operational execution, and is rounded up with people management skills.  He is versatile, having succeeded in different industries, companies and roles – working for industry leaders like Shell, IBM, Astro, Oracle and Microsoft. </p><p> Lucas has 20 years of general management experience, with unique ASEAN experience having worked in Malaysia, Thailand, Indonesia, Philippines and Singapore; with emphasis on enterprise as well as multi-segment technology sales, field seller transformation, operations as well as product management.  He is an Australian-trained production engineer with extensive management development. </p>",
+        "timeline title 1":"Registration",
+        "timeline title 2":"Welcome Keynote",
+        "timeline title 3":"Vision Keynote",
+        "timeline title 4":"Panel Discussion - Frontline Efficiency + Customer Experience",
+        "timeline title 5":"Happiness Break",
+        "timeline title 6":"Product Updates and New Launches",
+        "timeline title 7":"Panel/ Fireside Chat –Agile workforce + Operational Efficiency",
+        "timeline title 8":"Closing Speech",
+        "timeline title 9":"Demo of Zoom’s new product launches",
+        "timeline title 10":"Lunch"
+    },
     "s_validation": {
         "required": "This field is required."
     }

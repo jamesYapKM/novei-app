@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-import ListItem from '../components/listItem.vue';
+import ListItem from '~/components/listItem.vue';
 import { useI18n } from "vue-i18n"; 
 import { timelines } from "~/data/eventData.json"
 import { ref } from '@vue/reactivity';

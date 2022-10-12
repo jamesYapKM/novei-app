@@ -145,22 +145,9 @@
         "
       ></v-select>
     </v-col>
-    <v-col cols="12" md="6">
-      <v-select
-        v-model="form.ace"
-        :items="yesNoItem"
-        :label="t('registration.ace member')"
-        :error="form.errors.has('ace')"
-        :error-messages="
-          t(form.errors.get('ace') || '', {
-            attribute: t('registration.ace member'),
-          })
-        "
-      ></v-select>
-    </v-col>
   </v-row>
   <v-row>
-    <v-col cols="12">
+    <!-- <v-col cols="12">
       <p class="mb-4" v-html="t('registration.tnc')"></p>
       <v-btn
         color="blue darken-1"
@@ -168,7 +155,7 @@
         @click.stop="onSubmit"
         >{{ t("registration.register") }}</v-btn
       >
-    </v-col>
+    </v-col> -->
     <v-col cols="12">
       <v-alert
         v-if="form.errors.any()"
@@ -224,8 +211,8 @@ export default {
       job: "",
       industry: null,
       noe: null,
-      ace: null,
-      event:"ace"
+      ace: "No",
+      event: "zoomtopia",
     }),
     industryClassifies: [
       "Advertising",
@@ -261,10 +248,7 @@ export default {
       "5,001-10,000",
       "More than 10,000",
     ],
-    yesNoItem:[
-      "Yes",
-      "No"
-    ],
+    yesNoItem: ["Yes", "No"],
     sharing: {
       title:
         "Elevating your digital offerings to adapt to changing customer expectations",

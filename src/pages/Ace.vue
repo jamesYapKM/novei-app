@@ -47,6 +47,7 @@ import EventSpeakers from "~/section/EventSpeakers.vue";
 import EventModerator from "~/section/EventModerator.vue";
 import EventTimeline from "~/section/EventTimeline.vue";
 import EventSectionRegister from "~/section/EventSectionRegister.vue";
+import "~/assets/event.scss";
 
 const { t } = useI18n();
 const metaInfo = useMeta({

@@ -1,0 +1,73 @@
+{
+    "speakers": [
+        {
+          "image": "/speaker/people.jpg",
+          "name": "zoomtopia.speaker benedict name",
+          "title": "zoomtopia.speaker benedict title",
+          "company": "zoomtopia.speaker benedict company"
+        },
+        {
+          "image": "/speaker/people.jpg",
+          "name": "zoomtopia.speaker rakhmadhani name",
+          "title": "zoomtopia.speaker rakhmadhani title",
+          "company": "zoomtopia.speaker rakhmadhani company",
+          "description": "zoomtopia.speaker rakhmadhani description"
+        },
+        {
+          "image": "/speaker/kapur.png",
+          "name": "zoomtopia.speaker kapur name",
+          "title": "zoomtopia.speaker kapur title",
+          "company": "zoomtopia.speaker kapur company",
+          "description": "zoomtopia.speaker kapur description"
+        },
+        {
+          "image": "/speaker/lucas.jpg",
+          "name": "zoomtopia.speaker lucas name",
+          "title": "zoomtopia.speaker lucas title",
+          "company": "zoomtopia.speaker lucas company",
+          "description": "zoomtopia.speaker lucas description"
+        }
+    ],
+    "timelines":[{
+        "date": "8:30am SGT",
+        "title": "zoomtopia.timeline title 1"
+      },
+      {
+        "date": "9:00am SGT",
+        "title": "zoomtopia.timeline title 2"
+      },
+      {
+        "date": "9:15am SGT",
+        "title": "zoomtopia.timeline title 3"
+      },
+      {
+        "date": "9:30am SGT",
+        "title": "zoomtopia.timeline title 4"
+      },
+      {
+        "date": "10:00am SGT",
+        "title": "zoomtopia.timeline title 5"
+      },
+      {
+        "date": "10:15am SGT",
+        "title": "zoomtopia.timeline title 6"
+      },
+      {
+        "date": "10:35am SGT",
+        "title": "zoomtopia.timeline title 7"
+      },
+      {
+        "date": "11:05am SGT",
+        "title": "zoomtopia.timeline title 8"
+      },
+      {
+        "date": "11:20am SGT",
+        "title": "zoomtopia.timeline title 9"
+      },
+      {
+        "date": "11:40am - 1:00pm SGT",
+        "title": "zoomtopia.timeline title 10"
+      }
+    ],
+    "register_url": "https://events.learnzoom.training/zoomtopia/register"
+}

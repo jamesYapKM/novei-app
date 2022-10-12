@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory, createMemoryHistory } from 'vue-router'
 import Ace from '~/pages/Ace.vue'
 import AceRegistration from '~/pages/AceRegistration.vue'
+import Zoomtopia from '~/pages/Zoomtopia.vue'
+import ZoomtopiaRegistration from '~/pages/ZoomtopiaRegistration.vue'
 
 const pages = import.meta.glob('./pages/*.vue')
 
@@ -15,6 +17,8 @@ const routes = [
     {path:"/", name: 'Home',component: Ace},
     {path:"/ace", name: 'Ace',component: Ace},
     {path:"/ace/register", name: 'register',component: AceRegistration},
+    {path:"/zoomtopia", name: 'zoomtopia',component: Zoomtopia, meta:{layout:"LayoutNoHeader"}},
+    {path:"/zoomtopia/register", name: 'zoomtopia-register',component: ZoomtopiaRegistration, meta:{layout:"LayoutNoHeader"}},
     {path: '/*', redirect: '/' },
 ]
 
