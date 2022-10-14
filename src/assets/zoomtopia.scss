@@ -1,5 +1,8 @@
 @import "./breakpoint.sass";
 
+.v-main{
+    overflow: hidden;
+}
 .header {
     &.stack {}
 }

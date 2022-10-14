@@ -1,6 +1,6 @@
 <template>
   <section class="sec_banner">
-    <div class="v-container-fluid">
+    <v-container fluid>
       <div class="div_top_banner_image">
         <img
           class="Gradient"
@@ -46,7 +46,7 @@
             <a class="zoom_btn btn_monti"  @click="$router.push({name:'zoomtopia-register'})">MONTI</a>
         </div>
       </div>
-    </div>
+    </v-container>
   </section>
 </template>
 

@@ -1,33 +1,32 @@
 <template>
-  <v-main>
-    <section>
-      <header
-        class="v-toolbar v-toolbar--density-default v-theme--light v-app-bar v-toolbar--flat"
-        :class="headerClass"
-        style="
-          top: 0px;
-          z-index: 1004;
-          transform: translateY(0%);
-          position: fixed;
-          left: 0px;
-          width: calc((100% - 0px) - 0px);
-        "
-      >
-        <!---->
-        <div class="v-toolbar__content" style="height: 70px">
-          <!----><!---->
-          <div class="v-toolbar__content v-container">
-            <img class="ace-logo" src="/topia/logo.png" style="height: 50px" />
-            <div class="flex-grow-1"></div>
-          </div>
-          <!---->
+    <header
+      class="v-toolbar v-toolbar--density-default v-theme--light v-app-bar v-toolbar--flat"
+      :class="headerClass"
+      style="
+        top: 0px;
+        z-index: 1004;
+        transform: translateY(0%);
+        position: fixed;
+        left: 0px;
+        width: calc((100% - 0px) - 0px);
+      "
+      app
+    >
+      <!---->
+      <div class="v-toolbar__content" style="height: 70px">
+        <!----><!---->
+        <div class="v-toolbar__content v-container">
+          <img class="ace-logo" src="/topia/logo.png" style="height: 50px" />
+          <div class="flex-grow-1"></div>
         </div>
         <!---->
-      </header>
-    </section>
+      </div>
+      <!---->
+    </header>
+  <v-main>
     <slot />
-    <Footer />
-  </v-main>
+  </v-main> 
+  <Footer app/>
 </template>
 
 <script setup>
