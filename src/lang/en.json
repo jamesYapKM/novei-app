@@ -137,13 +137,17 @@
         "timeline title 1":"Registration",
         "timeline title 2":"Welcome Keynote",
         "timeline title 3":"Vision Keynote",
-        "timeline title 4":"Panel Discussion - Frontline Efficiency + Customer Experience",
+        "timeline title 4":"Panel/ Fireside Chat –Workplace Agility: The True Secret To Improving Productivity And Efficiency",
+        "timeline description 4":"Zoom is enabling a smart, flexible, hybrid workplace through connected office solutions. The panellists will share innovations that will help your organization empower better employee experiences and create an engaging and efficient workspace, as well as streamline operations by bringing efficiencies into workflows and processes.",
         "timeline title 5":"Happiness Break",
-        "timeline title 6":"Product Updates and New Launches",
-        "timeline title 7":"Panel/ Fireside Chat –Agile workforce + Operational Efficiency",
+        "timeline title 6":"Panel Discussion - Empowering Frontline Employees To Deliver Exceptional Customer Experience",
+        "timeline description 6":"Evolving consumer expectations, digital transformation, and growing competition are driving businesses to re-evaluate and improve their customers' experiences. Join us in an open discussion on the future of customer experience.<br/> From handing back consumers control over their own health to enhanced patient engagement, our experts will discuss how we can ensure long-term health and wellness for consumers.<br/>We will also discuss how financial institutions can successfully implement omnichannel experiences that deliver a positive experience in a way that is scaleable.",
+        "timeline title 7":"Product Updates and New Launches for Asia",
+        "timeline description 7":"At Zoom, we are defining the future of connection in real time. In this session, we will spotlight the advances that are shaping our future, as we guide you on a journey to the possible. We’ll share how Zoom, on the strength of our robust but flexible platform, continues to deliver innovative products and solutions that bring people together, and make life easier.",
         "timeline title 8":"Closing Speech",
-        "timeline title 9":"Demo of Zoom’s new product launches",
-        "timeline title 10":"Lunch"
+        "timeline title 9":"Discover the Endless Possibilities - Booth demo of Zoom’s newly launch products",
+        "timeline title 10":"Lunch",
+        "timeline title 11":"Event ends"
     },
     "s_validation": {
         "required": "This field is required."
