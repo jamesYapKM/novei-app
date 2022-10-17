@@ -147,7 +147,7 @@
     </v-col>
   </v-row>
   <v-row>
-    <!-- <v-col cols="12">
+    <v-col cols="12">
       <p class="mb-4" v-html="t('registration.tnc')"></p>
       <v-btn
         color="blue darken-1"
@@ -155,7 +155,7 @@
         @click.stop="onSubmit"
         >{{ t("registration.register") }}</v-btn
       >
-    </v-col> -->
+    </v-col>
     <v-col cols="12">
       <v-alert
         v-if="form.errors.any()"

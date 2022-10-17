@@ -25,7 +25,7 @@
     <v-container class="div_speakers">
       <v-row >
         <v-col cols="12">
-          <h2 class="speakers_header text-start">Agenda</h2>
+          <h2 class="speakers_header text-start">{{t('zoomtopia.agenda')}}</h2>
         </v-col>
       </v-row>
       <v-row>

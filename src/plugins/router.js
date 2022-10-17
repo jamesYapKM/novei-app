@@ -17,8 +17,8 @@ const routes = [
     {path:"/", name: 'Home',component: Ace},
     {path:"/ace", name: 'Ace',component: Ace},
     {path:"/ace/register", name: 'register',component: AceRegistration},
-    {path:"/zoomtopia", name: 'zoomtopia',component: Zoomtopia, meta:{layout:"LayoutNoHeader"}},
-    {path:"/zoomtopia/register", name: 'zoomtopia-register',component: ZoomtopiaRegistration, meta:{layout:"LayoutNoHeader"}},
+    {path:"/zoomtopiasingapore", name: 'zoomtopia',component: Zoomtopia, meta:{layout:"LayoutNoHeader"}},
+    {path:"/zoomtopiasingapore/register", name: 'zoomtopia-register',component: ZoomtopiaRegistration, meta:{layout:"LayoutNoHeader"}},
     {path: '/*', redirect: '/' },
 ]
 

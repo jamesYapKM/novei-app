@@ -35,25 +35,27 @@
             height=""
           />
         </div>
-        <h1 class="h_title">Explore New Dimensions</h1>
-        <h2 class="h_subtitle">Zoomtopia Singapore 2022</h2>
-        <p class="p_date">17 November 2022</p>
-        <p class="p_date">2 Collyer Quay, Singapore 049327</p>
+        <h1 class="h_title">{{t('zoomtopia.title')}}</h1>
+        <h2 class="h_subtitle">{{t('zoomtopia.subtitle')}}</h2>
+        <p class="p_date">{{t('zoomtopia.date')}}</p>
         <div class="div_box_buttons">
             <a class="zoom_btn btn_self" @click="$router.push({name:'zoomtopia-register'})"
-              >In-person</a
+              >In-person | Register Now</a
             >
-            <a class="zoom_btn btn_monti"  @click="$router.push({name:'zoomtopia-register'})">MONTI</a>
         </div>
+        <p class="p_date" v-html="t('zoomtopia.location')"></p>
       </div>
     </v-container>
   </section>
 </template>
 
 <script setup>
+import { useI18n } from "vue-i18n"; 
+
 const {showBotton} = defineProps({
     showBotton: {type:Boolean,default:true},
 })
+const { t } = useI18n();
 </script>
 
 <style></style>
