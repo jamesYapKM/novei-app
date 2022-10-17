@@ -1,12 +1,11 @@
 <template>
   <Banner :showBotton="false"></Banner>
+  <SecSpeakers />
   <section class="sec_register">
     <v-container>
         <EventRegistratonForm></EventRegistratonForm>
     </v-container>
   </section>
-  
-  <SecSpeakers />
 </template>
 
 <script setup>
