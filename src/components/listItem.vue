@@ -6,7 +6,10 @@
         <div class="timeline_description v-col-sm-10">
             <h2 :class="{'mb-2': !item.speaker}">{{t(item.title)}}</h2>
             <div v-if="item.speaker">
-                <p class="list_speaker mb-2">{{t(item.speaker)}}<span v-if="item.speaker_title">, {{t(item.speaker_title)}}</span></p>
+                <p class="list_speaker mb-2">{{t(item.speaker)}}<span v-if="item.speaker_title">, {{t(item.speaker_title)}}</span> <span v-if="item.speaker_company">, {{t(item.speaker_company)}}</span></p>
+            </div>
+            <div v-if="item.speakers">
+                <p class="list_speaker mb-2" v-for="(speaker, i) in item.speakers" :key="i">{{t(speaker.name)}}<span v-if="speaker.title">, {{t(speaker.title)}}</span> <span v-if="speaker.company">, {{t(speaker.company)}}</span></p>
             </div>
             <template v-if="item.description">
                 <v-btn color="primary" variant="plain" @click.stop="showContent = !showContent" class="pa-0">{{t('view details')}} <v-icon end :icon="showContent?'mdi-chevron-up':'mdi-chevron-down'"></v-icon></v-btn>
