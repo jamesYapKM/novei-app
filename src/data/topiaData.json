@@ -31,18 +31,18 @@
       "company": "zoomtopia.speaker david company"
     },
     {
-      "image": "/speaker/kapur.png",
-      "name": "zoomtopia.speaker kapur name",
-      "title": "zoomtopia.speaker kapur title",
-      "company": "zoomtopia.speaker kapur company",
-      "description": "zoomtopia.speaker kapur description"
-    },
-    {
       "image": "/speaker/eric.png",
       "name": "zoomtopia.speaker eric name",
       "title": "zoomtopia.speaker eric title",
       "company": "zoomtopia.speaker eric company",
       "description": "zoomtopia.speaker eric description"
+    },
+    {
+      "image": "/speaker/kapur.png",
+      "name": "zoomtopia.speaker kapur name",
+      "title": "zoomtopia.speaker kapur title",
+      "company": "zoomtopia.speaker kapur company",
+      "description": "zoomtopia.speaker kapur description"
     },
     {
       "image": "/speaker/lucas.jpg",
