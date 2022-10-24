@@ -7,12 +7,6 @@
       "company": "zoomtopia.speaker adam company"
     },
     {
-      "image": "/speaker/people.jpg",
-      "name": "zoomtopia.speaker ueng name",
-      "title": "zoomtopia.speaker ueng title",
-      "company": "zoomtopia.speaker ueng company"
-    },
-    {
       "image": "/speaker/benedict.png",
       "name": "zoomtopia.speaker benedict name",
       "title": "zoomtopia.speaker benedict title",
@@ -45,6 +39,12 @@
       "description": "zoomtopia.speaker kapur description"
     },
     {
+      "image": "/speaker/inho-ho.jpg",
+      "name": "zoomtopia.speaker inho name",
+      "title": "zoomtopia.speaker inho title",
+      "company": "zoomtopia.speaker inho company"
+    },
+    {
       "image": "/speaker/lucas.jpg",
       "name": "zoomtopia.speaker lucas name",
       "title": "zoomtopia.speaker lucas title",
@@ -59,6 +59,10 @@
     },
     {
       "date": "9:00am SGT",
+      "title": "zoomtopia.timeline title 1-1"
+    },
+    {
+      "date": "9:02am SGT",
       "title": "zoomtopia.timeline title 2",
       "speakers": [
         {
@@ -69,7 +73,7 @@
       ]
     },
     {
-      "date": "9:15am SGT",
+      "date": "9:25am SGT",
       "title": "zoomtopia.timeline title 3",
       "speakers": [
         {
@@ -88,11 +92,6 @@
           "name": "zoomtopia.speaker adam name",
           "title": "zoomtopia.speaker adam title",
           "company": "zoomtopia.speaker adam company"
-        },
-        {
-          "name": "zoomtopia.speaker ueng name",
-          "title": "zoomtopia.speaker ueng title",
-          "company": "zoomtopia.speaker ueng company"
         }
       ]
     },
@@ -103,7 +102,17 @@
     {
       "date": "10:15am SGT",
       "title": "zoomtopia.timeline title 6",
-      "description": "zoomtopia.timeline description 6",
+      "speakers": [
+        {
+          "name": "zoomtopia.speaker inho name",
+          "title": "zoomtopia.speaker inho title",
+          "company": "zoomtopia.speaker inho company"
+        }
+      ]
+    },
+    {
+      "date": "10:35am SGT",
+      "title": "zoomtopia.timeline title 7",
       "speakers": [
         {
           "name": "zoomtopia.speaker benedict name",
@@ -123,13 +132,15 @@
       ]
     },
     {
-      "date": "10:35am SGT",
-      "title": "zoomtopia.timeline title 7",
-      "description": "zoomtopia.timeline description 7"
-    },
-    {
       "date": "11:05am SGT",
-      "title": "zoomtopia.timeline title 8"
+      "title": "zoomtopia.timeline title 8",
+      "speakers": [
+        {
+          "name": "zoomtopia.speaker lucas name",
+          "title": "zoomtopia.speaker lucas title",
+          "company": "zoomtopia.speaker lucas company"
+        }
+      ]
     },
     {
       "date": "11:20am SGT",
