@@ -52,6 +52,14 @@
       "description": "zoomtopia.speaker lucas description"
     }
   ],
+  "moderators":[
+    {
+      "image": "/speaker/william.jpg",
+      "name": "zoomtopia.speaker william name",
+      "title": "zoomtopia.speaker william title",
+      "company": "zoomtopia.speaker william company"
+    }
+  ],
   "timelines": [
     {
       "date": "8:30am SGT",
@@ -59,10 +67,6 @@
     },
     {
       "date": "9:00am SGT",
-      "title": "zoomtopia.timeline title 1-1"
-    },
-    {
-      "date": "9:02am SGT",
       "title": "zoomtopia.timeline title 2",
       "speakers": [
         {
@@ -102,6 +106,7 @@
     {
       "date": "10:15am SGT",
       "title": "zoomtopia.timeline title 6",
+      "description": "zoomtopia.timeline description 6",
       "speakers": [
         {
           "name": "zoomtopia.speaker inho name",
@@ -113,6 +118,7 @@
     {
       "date": "10:35am SGT",
       "title": "zoomtopia.timeline title 7",
+      "description": "zoomtopia.timeline description 7",
       "speakers": [
         {
           "name": "zoomtopia.speaker benedict name",

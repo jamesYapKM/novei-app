@@ -16,7 +16,7 @@
     <v-container class="div_speakers">
       <v-row class="text-center">
         <v-col cols="12">
-          <h2 class="speakers_header">Speakers</h2>
+          <h2 class="speakers_header">{{header}}</h2>
           <v-dialog v-model="dialog" max-width="600">
             <v-card v-if="showItem.value">
               <v-card-text class="speaker_model">
@@ -43,7 +43,6 @@
 
 <script setup>
 import { reactive, ref } from "@vue/reactivity";
-import { speakers } from "~/data/topiaData.json"
 
 import { useI18n } from "vue-i18n";
 import Speaker from "~/components/Speaker.vue";
@@ -51,6 +50,7 @@ import Speaker from "~/components/Speaker.vue";
 const { t } = useI18n();
 const dialog = ref(false);
 const showItem = reactive({});
+const {speakers, header} = defineProps(['speakers','header']) ;
 
 const showPopup = (item) => {
   showItem.value = item;

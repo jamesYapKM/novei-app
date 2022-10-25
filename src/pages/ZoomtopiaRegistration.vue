@@ -1,6 +1,7 @@
 <template>
   <Banner :showBotton="false"></Banner>
-  <SecSpeakers />
+  <SecSpeakers :speakers="speakers" header="Speakers"/>
+  <SecSpeakers :speakers="moderators" header="Moderator"/>
   <section class="sec_register">
     <v-container>
         <EventRegistratonForm></EventRegistratonForm>
@@ -18,6 +19,7 @@ import EventRegistratonForm from "../section/zoomtopia/EventRegistratonForm.vue"
 
 import { useMeta } from "vue-meta";
 import { useI18n } from "vue-i18n";
+import { speakers, moderators } from "~/data/topiaData.json"
 
 const { t } = useI18n();
 const metaInfo = useMeta({

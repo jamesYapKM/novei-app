@@ -2,7 +2,8 @@
   <!-- <SecHeader /> -->
   <Banner />
   <SecDescription />
-  <SecSpeakers />
+  <SecSpeakers :speakers="speakers" header="Speakers"/>
+  <SecSpeakers :speakers="moderators" header="Moderator"/>
   <SecAgenda />
   <section class="sec_join_us">
     <v-container>
@@ -21,6 +22,8 @@ import SecHeader from "~/section/zoomtopia/SecHeader.vue";
 import SecRegister from "../section/zoomtopia/SecRegister.vue";
 import { useMeta } from "vue-meta";
 import { useI18n } from "vue-i18n";
+import { speakers, moderators } from "~/data/topiaData.json"
+
 
 const { t } = useI18n();
 const metaInfo = useMeta({
