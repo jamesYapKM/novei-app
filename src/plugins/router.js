@@ -14,8 +14,8 @@ const pages = import.meta.glob('./pages/*.vue')
   }
 })*/
 const routes = [
-    {path:"/", name: 'Home',component: Zoomtopia},
-    // {path:"/ace", name: 'Ace',component: Ace},
+    {path:"/", name: 'Home',component: Zoomtopia, meta:{layout:"LayoutNoHeader"}},
+    {path:"/ace", name: 'Ace',component: Ace},
     // {path:"/ace/register", name: 'register',component: AceRegistration},
     {path:"/zoomtopiasingapore", name: 'zoomtopia',component: Zoomtopia, meta:{layout:"LayoutNoHeader"}},
     {path:"/zoomtopiasingapore/register", name: 'zoomtopia-register',component: ZoomtopiaRegistration, meta:{layout:"LayoutNoHeader"}},
