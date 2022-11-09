@@ -68,7 +68,13 @@
             attribute: t('registration.training sessions'),
           })
         "
-      ></v-select>
+      >
+      <template v-slot:item="{ item, index }">
+        <v-list-item :key="index" :value="item.value" @click="form.training_session_id=item.value" :disabled="item.raw.total_registered >= 150">
+        {{item.title}}
+        </v-list-item>
+      </template>
+    </v-select>
     </v-col>
   </v-row>
   <v-row>

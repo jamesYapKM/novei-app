@@ -1,7 +1,7 @@
 // Styles
 import "@mdi/font/css/materialdesignicons.css";
 import "vuetify/styles";
-import { VBtn, VRow, VCol, VApp, VMain, VSpacer, VAvatar, VImg, VCard, VCardText, VAppBar } from "vuetify/components";
+import { VBtn, VRow, VCol, VApp, VMain, VSpacer, VAvatar, VImg, VCard, VCardText, VAppBar, VSelect } from "vuetify/components";
 import * as directives from "vuetify/directives";
 // Vuetify
 import { createVuetify } from "vuetify";
@@ -9,7 +9,7 @@ import { createVuetify } from "vuetify";
 export default createVuetify(
   // https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
   {
-    components:{VBtn, VRow, VCol, VApp, VMain, VSpacer, VAvatar, VImg, VCard, VCardText, VAppBar},
+    components:{VBtn, VRow, VCol, VApp, VMain, VSpacer, VAvatar, VImg, VCard, VCardText, VAppBar, VSelect},
     directives,
     theme: {
       themes: {
