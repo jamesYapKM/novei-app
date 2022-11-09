@@ -110,7 +110,10 @@
         "industry classification": "Industry Classification",
         "number of employees": "Number Of Employees",
         "ace member": "Are you an ACE member?",
-        "register": "register"
+        "register": "register",
+        "name":"Full Name",
+        "department": "Department",
+        "training sessions":"Training Sessions",
     },
     "zoomtopia":{
         "title": "Explore New Dimensions",
@@ -169,7 +172,16 @@
         "timeline title 10":"Lunch",
         "timeline title 11":"Event ends"
     },
+    "wilmar":{
+        "banner title": "Launch of Zoom at Wilmar",
+        "banner sub title": "Learn Top 5 Zoom Productivity Hacks",
+        "banner location": "Wilmar Auditorium",
+        "banner time": "16 November 2022",
+        "win gift title": "Learn Top 5 Zoom Productivity Hacks",
+        "win gift description": "Free Macarons and Chances to WIN Zoom swags"
+    },
     "s_validation": {
-        "required": "This field is required."
+        "required": "This field is required.",
+        "email already use": "This email already registered."
     }
 }

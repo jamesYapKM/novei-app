@@ -1,0 +1,118 @@
+{
+    "speakers": [
+        {
+          "image": "/speaker/kapur.png",
+          "name": "speaker kapur name",
+          "description": "speaker kapur description",
+          "url": "https://www.linkedin.com/in/kapurricky/"
+        },
+        {
+          "image": "/speaker/shawn.png",
+          "name": "speaker shawn name",
+          "description": "speaker shawn description",
+          "url": ""
+        },
+        {
+          "image": "/speaker/rakhmadhani.png",
+          "name": "speaker rakhmadhani name",
+          "description": "speaker rakhmadhani description",
+          "url": ""
+        },
+        {
+          "image": "/speaker/gabriel.png",
+          "name": "speaker gabriel name",
+          "description": "speaker gabriel description",
+          "url": ""
+        },
+        {
+          "image": "/speaker/wendy.png",
+          "name": "speaker wendy name",
+          "description": "speaker wendy description",
+          "url": ""
+        },
+        {
+          "image": "/speaker/benjamin.png",
+          "name": "speaker benjamin name",
+          "description": "speaker benjamin description",
+          "url": ""
+        },
+        {
+          "image": "/speaker/inho-ho.jpg",
+          "name": "speaker inho name",
+          "description": "speaker inho description",
+          "url": ""
+        }
+    ],
+    "timelines":[{
+        "date": "10:00am SGT",
+        "title": "timeline title 1",
+        "image": "/speaker/kapur.png",
+        "speaker": "speaker kapur name",
+        "speaker_title": "speaker kapur description"
+      },
+      {
+        "date": "10:22am SGT",
+        "title": "timeline title 2",
+        "description": "timeline description 2",
+        "image": "/speaker/gabriel.png",
+        "speaker": "speaker gabriel name",
+        "speaker_title": "speaker gabriel description"
+      },
+      {
+        "date": "10:37am SGT",
+        "title": "timeline title 3",
+        "description": "timeline description 3",
+        "image": "/speaker/shawn.png",
+        "speaker": "speaker shawn name",
+        "speaker_title": "speaker shawn description"
+      },
+      {
+        "date": "10:45am SGT",
+        "title": "timeline title 4",
+        "description": "timeline description 4",
+        "image": "/speaker/wendy.png",
+        "speaker": "speaker wendy name",
+        "speaker_title": "speaker wendy description"
+      },
+      {
+        "date": "11:00am SGT",
+        "title": "timeline title 5",
+        "description": "timeline description 5"
+      },
+      {
+        "date": "11:10am SGT",
+        "title": "timeline title 6",
+        "description": "timeline description 6",
+        "image": "/speaker/benjamin.png",
+        "speaker": "speaker benjamin name",
+        "speaker_title": "speaker benjamin description"
+      },
+      {
+        "date": "11:25am SGT",
+        "title": "timeline title 7",
+        "description": "timeline description 7",
+        "image": "/speaker/rakhmadhani.png",
+        "speaker": "speaker rakhmadhani name",
+        "speaker_title": "speaker rakhmadhani description"
+      },
+      {
+        "date": "11:35am SGT",
+        "title": "timeline title 8",
+        "speaker": "timeline speaker 8",
+        "speaker_title": "speaker inho description"
+      },
+      {
+        "date": "11:50am SGT",
+        "title": "timeline title 9"
+      },
+      {
+        "date": "11:55am SGT",
+        "title": "timeline title 10",
+        "image": "/speaker/kapur.png",
+        "speaker": "speaker kapur name",
+        "speaker_title": "speaker kapur description"
+      }
+    ],
+    "register_url":  "https://events.learnzoom.training/api/training/register",
+    "session_url": "https://events.learnzoom.training/api/training/session"
+}
