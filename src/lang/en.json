@@ -113,7 +113,7 @@
         "register": "register",
         "name":"Full Name",
         "department": "Department",
-        "training sessions":"Training Sessions",
+        "training sessions":"Choose a session"
     },
     "zoomtopia":{
         "title": "Explore New Dimensions",
