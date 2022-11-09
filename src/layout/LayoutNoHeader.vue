@@ -23,7 +23,7 @@
       </div>
       <!---->
     </header>
-  <v-main>
+  <v-main class="p_zoomtopia">
     <slot />
   </v-main> 
   <Footer app/>

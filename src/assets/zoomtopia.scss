@@ -6,7 +6,7 @@
 .header {
     &.stack {}
 }
-
+.p_zoomtopia{
 .sec_banner {
     padding-top: calc(175px + 45 * ((100vw - 420px) / 980));
     padding-bottom: calc(100px + 100 * ((100vw - 420px) / 980));
@@ -452,4 +452,5 @@
             }
         }
     }
+}
 }
