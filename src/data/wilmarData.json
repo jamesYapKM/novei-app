@@ -113,6 +113,6 @@
         "speaker_title": "speaker kapur description"
       }
     ],
-    "register_url":  "https://events.learnzoom.training/api/training/register",
-    "session_url": "https://events.learnzoom.training/api/training/session"
+    "register_url":  "https://api.kehlmannberleys.com/api/training/register",
+    "session_url": "https://api.kehlmannberleys.com/api/training/session"
 }
