@@ -1,6 +1,6 @@
 <template>
   <v-row>
-    <v-col cols="12">
+    <v-col cols="12" id="reg-form">
       <span class="float-right">
         <ShareNetwork
           v-for="network in networks"

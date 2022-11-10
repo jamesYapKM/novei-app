@@ -1,5 +1,5 @@
 @import "./breakpoint.sass";
-@import '@fortawesome/fontawesome-free/css/all.css';
+@import './main.sass';
 
 .logo {
     height: 25px;
@@ -275,27 +275,3 @@ img {
 
 
 
-a.social-share {
-    /* margin: auto; */
-    width: 40px;
-    height: 40px;
-    justify-content: center;
-    display: inline-block;
-    /* align-items: center; */
-    text-align: center;
-    margin-left: 3px;
-    vertical-align: middle;
-    text-decoration: none;
-
-    i.share-icon{
-        color: #fff;
-        display: inline-flex;
-        height: 100%;
-        justify-content: center;
-        align-items: center;
-        &::before{
-            line-height: 100%;
-        }
-
-    }
-}

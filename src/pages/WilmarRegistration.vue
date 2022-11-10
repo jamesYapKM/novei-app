@@ -9,7 +9,17 @@
       <EventRegistratonForm />
     </v-container>
   </section>
-  <section class="sec_free_gift bg-primary">
+  <section class="">
+    <v-container>
+      <Sec2 />
+    </v-container>
+  </section>
+  <section class="sec_free_gift">
+    <v-container>
+      <Cover />
+    </v-container>
+  </section>
+  <section class="sec_other">
     <v-container>
       <FreeGift />
     </v-container>
@@ -23,6 +33,8 @@ import { useMeta } from "vue-meta";
 import WilmarBanner from "~/section/wilmar/WilmarBanner.vue";
 import EventRegistratonForm from "~/section/wilmar/EventRegistratonForm.vue";
 import FreeGift from "~/section/wilmar/FreeGift.vue"
+import Cover from "../section/wilmar/Cover.vue";
+import Sec2 from "../section/wilmar/Sec2.vue";
 
 import "~/assets/wilmar.scss";
 

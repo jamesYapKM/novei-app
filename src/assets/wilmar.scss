@@ -1,5 +1,7 @@
 @import "./breakpoint.sass";
 
+@import './main.sass';
+
 .logo {
     height: 25px;
     width: auto;
@@ -232,7 +234,8 @@ img {
 
 
 .sec_free_gift{
-    background-color: #f0f8ff;
+    background-color: #1a3760;
+    color: #fff;
     padding: 40px 0;
     .img_gift{
         position: relative;
@@ -248,8 +251,20 @@ img {
     p{
         margin: 15px 0;
     }
+    table{
+        margin: auto;
+        border-collapse: collapse;
+        td{
+            border: 1px solid;
+            padding: 10px 20px;
+        
+        }
+    }
 }
 
+.sec_other{
+    padding: 40px 0;
+}
 
 @keyframes slidein {
     from {
