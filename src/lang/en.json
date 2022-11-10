@@ -173,12 +173,12 @@
         "timeline title 11":"Event ends"
     },
     "wilmar":{
-        "banner title": "Launch of Zoom at Wilmar",
-        "banner sub title": "Learn Top 5 Zoom Productivity Hacks",
+        "banner title": "Launch of Zoom Phone at Wilmar",
+        "banner sub title": "Learn how to use Zoom Phone to get more for your communications",
         "banner location": "Wilmar Auditorium",
         "banner time": "16 November 2022",
-        "win gift title": "Learn Top 5 Zoom Productivity Hacks",
-        "win gift description": "+ Receive free macarons and chances to win Zoom swag!"
+        "win gift title": "Register Now",
+        "win gift description": "<p>Zoom Phone is the cloud phone solution, natively built for the Zoom platform</p><p>In this training, we will cover:</p><ul><li>Sign in & Configuration </li><li>Using Zoom Phone</li><li>Zoom Mobile App</li><li>Resources & Support </li><li>Best Practices </li><li>Active Call </li><li>Walkthroughs</li></ul><h2>join the Kahoo game at the end of the training and win Zoom swags.</h2>"
     },
     "s_validation": {
         "required": "This field is required.",
