@@ -3,7 +3,7 @@
     <v-col md="10" cols="12">
       <v-row class="justify-center">
         <v-col cols="12" class="text-center">
-          <h2>{{ t("wilmar.win gift title") }}</h2>
+          <h2 class="font-weight-bold text-h3">{{ t("wilmar.win gift title") }}</h2>
           <p v-html="t('wilmar.win gift description')"></p>
         </v-col>
       </v-row>
