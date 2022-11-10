@@ -9,7 +9,7 @@
       <EventRegistratonForm />
     </v-container>
   </section>
-  <section class="sec_free_gift">
+  <section class="sec_free_gift bg-primary">
     <v-container>
       <FreeGift />
     </v-container>

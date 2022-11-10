@@ -114,9 +114,6 @@ img {
         font-size: 16px;
     }
 
-    ul {
-        margin-left: 15px;
-    }
 }
 
 .sec_timeline {
@@ -245,6 +242,12 @@ img {
         animation-timing-function: ease-in-out;
         animation-direction: alternate;
     }
+    h2{
+        margin-bottom: 30px;
+    }
+    p{
+        margin: 15px 0;
+    }
 }
 
 
@@ -264,4 +267,8 @@ img {
     ul{
         display: inline-block;
     }
+}
+
+ul {
+    margin-left: 15px;
 }

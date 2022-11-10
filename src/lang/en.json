@@ -177,8 +177,8 @@
         "banner sub title": "Learn how to use Zoom Phone to get more for your communications",
         "banner location": "Wilmar Auditorium",
         "banner time": "16 November 2022",
-        "win gift title": "Register Now",
-        "win gift description": "<p>Zoom Phone is the cloud phone solution, natively built for the Zoom platform</p><p>In this training, we will cover:</p><ul><li>Sign in & Configuration </li><li>Using Zoom Phone</li><li>Zoom Mobile App</li><li>Resources & Support </li><li>Best Practices </li><li>Active Call </li><li>Walkthroughs</li></ul><h2>join the Kahoo game at the end of the training and win Zoom swags.</h2>"
+        "win gift title": "Zoom Phone is the cloud phone solution,<br/> natively built for the Zoom platform",
+        "win gift description": "<p class='font-weight-bold text-h4'>Register Now</p><p>In this training, we will cover:</p><div class='v-row py-11'><div class='v-col-12 v-col-md-4 pa-0'><ul><li>Sign in & Configuration </li><li>Using Zoom Phone</li><li>Zoom Mobile App</li></ul></div><div class='v-col-12 v-col-md-4 pa-0'><ul><li>Resources & Support </li><li>Best Practices </li></ul></div><div class='v-col-12 v-col-md-4 pa-0'><ul><li>Active Call </li><li>Walkthroughs</li></ul></div></div><h2>join the Kahoo game at the end of the training and win Zoom swags.</h2>"
     },
     "s_validation": {
         "required": "This field is required.",
