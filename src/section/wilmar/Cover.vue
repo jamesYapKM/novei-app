@@ -1,9 +1,9 @@
 <template>
   <v-row class="justify-center align-center">
-    <v-col cols="12" md="6" class="order-2 order-md-1 text-center">
+    <v-col cols="12" md="6" class="text-center">
       <h1 class="about_title">In this training, we will cover:</h1>
     </v-col>
-    <v-col cols="12" md="6" class="order-1 order-md-2 text-center">
+    <v-col cols="12" md="6" class="text-center">
       <table>
         <tbody>
         <tr><td>1</td><td>Sign in & Configuration</td></tr>

@@ -3,7 +3,7 @@
     <v-col md="10" cols="12">
       <v-row class="justify-center">
         <v-col cols="12" class="text-center">
-          <h2 class="font-weight-bold">join the Kahoot! game at the end of the training and win Zoom swags.</h2>
+          <h2 class="font-weight-bold">Join the Kahoot! game at the end of the training and win Zoom swags.</h2>
           <v-btn
             class="mt-4"
             color="primary"
