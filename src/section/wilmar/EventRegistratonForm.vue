@@ -70,8 +70,8 @@
         "
       >
       <template v-slot:item="{ item, index }">
-        <v-list-item :key="index" :value="item.value" @click="form.training_session_id=item.value" :disabled="item.raw.total_registered >= 150">
-        {{item.title}}<span v-if="item.raw.total_registered >= 150"> (FULL)</span>
+        <v-list-item :key="index" :value="item.value" @click="form.training_session_id=item.value" :disabled="item.raw.total_registered >= 160">
+        {{item.title}}<span v-if="item.raw.total_registered >= 160"> (FULL)</span>
         </v-list-item>
       </template>
     </v-select>
