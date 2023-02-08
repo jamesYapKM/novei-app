@@ -4,7 +4,7 @@
             {{item.date}}
         </div>
         <div class="timeline_description v-col-sm-10">
-            <h2 :class="{'mb-2': !item.speaker}">{{t(item.title)}}</h2>
+            <h2 :class="{'mb-2': !item.speaker}" v-html="t(item.title)"></h2>
             <div v-if="item.speaker">
                 <p class="list_speaker mb-2">{{t(item.speaker)}}<span v-if="item.speaker_title">, {{t(item.speaker_title)}}</span> <span v-if="item.speaker_company">, {{t(item.speaker_company)}}</span></p>
             </div>

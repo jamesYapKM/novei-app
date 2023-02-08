@@ -1,0 +1,87 @@
+{
+    "speakers": [
+        {
+          "image": "/speaker/kapur.png",
+          "name": "work.speaker kapur name",
+          "description": "work.speaker kapur description",
+          "company":"work.speaker kapur company"
+        },
+        {
+          "image": "/speaker/lucas.jpg",
+          "name": "work.speaker lucas name",
+          "description": "work.speaker lucas description",
+          "company": "work.speaker lucas company",
+          "url": ""
+        },
+        {
+          "image": "/speaker/nathan.jpeg",
+          "name": "work.speaker nathan name",
+          "description": "work.speaker nathan description",
+          "company": "work.speaker nathan company",
+          "url": ""
+        },
+        {
+          "image": "/speaker/inho-ho.jpg",
+          "name": "work.speaker inho name",
+          "description": "work.speaker inho description",
+          "company": "work.speaker inho company"
+        }
+    ],
+    "moderators":[
+      {
+        "image": "/speaker/xav.jpg",
+        "name": "work.speaker xav name",
+        "description": "work.speaker xav description",
+        "company": "work.speaker xav company",
+        "url": ""
+      }
+    ],
+    "timelines":[{
+        "date": "12:00pm - 1:25pm SGT",
+        "title": "work.timeline title 1"
+      },
+      {
+        "date": "1:25pm SGT",
+        "title": "work.timeline title 2"
+      },
+      {
+        "date": "1:30pm - 1:40pm SGT",
+        "title": "work.timeline title 3",
+        "description": "work.timeline description 3",
+        "speaker": "work.speaker kapur name",
+        "speaker_title": "work.speaker kapur description",
+        "speaker_company": "work.speaker kapur company"
+      },
+      {
+        "date": "1:40pm - 2:00pm SGT",
+        "title": "work.timeline title 4",
+        "description": "work.timeline description 4"
+      },
+      {
+        "date": "2:00pm - 2:20pm SGT",
+        "title": "work.timeline title 5",
+        "description": "work.timeline description 5",
+        "speaker": "work.speaker inho name",
+        "speaker_title": "work.speaker inho description",
+        "speaker_company": "work.speaker inho company"
+      },
+      {
+        "date": "2:20pm - 2:40pm SGT",
+        "title": "work.timeline title 6",
+        "description": "work.timeline description 6",
+        "speaker": "work.speaker nathan name",
+        "speaker_title": "work.speaker nathan description",
+        "speaker_company": "work.speaker nathan company"
+      },
+      {
+        "date": "2:40pm - 3:30pm SGT",
+        "title": "work.timeline title 7",
+        "description": "work.timeline description 7"
+      },
+      {
+        "date": "3:30pm - 4:30pm SGT",
+        "title": "work.timeline title 8"
+      }
+    ],
+    "register_url": "https://events.learnzoom.training/awork"
+}
