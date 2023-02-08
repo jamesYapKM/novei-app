@@ -185,7 +185,7 @@ import { useI18n } from "vue-i18n";
 import Form from "vform";
 import { AlertError } from "vform/src/components/tailwind";
 import { useRoute } from "vue-router";
-import { register_url } from "~/data/eventData.json";
+import { register_url } from "~/data/workData.json";
 import { computed } from "@vue/runtime-core";
 
 export default {
@@ -211,7 +211,8 @@ export default {
       job: "",
       industry: null,
       noe: null,
-      event:"work-transformation"
+      event_id:1,
+      ace: 0
     }),
     industryClassifies: [
       "Advertising",
