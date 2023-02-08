@@ -34,7 +34,11 @@ img {
         padding: 80px 0;
     }
     .col_banner_desc{
-        background-color: rgba(66, 140, 255,.75);
+        // background-color: rgba(66, 140, 255,.75);
+        background: url(/work-transformation-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: top right;
         border-radius: 30px;
         padding: 40px;
     }

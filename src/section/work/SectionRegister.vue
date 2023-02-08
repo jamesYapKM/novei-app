@@ -3,7 +3,7 @@
     <v-col cols="12">
       <h2 class="register_main_title">{{ t("work.register main title") }}</h2>
       <p class="register_sub_title">{{ t("work.register sub title") }}</p>
-      <p class="register_sub_title text-start font-italic font-weight-bold ">{{ t("work.register additional text") }}</p>
+      <p class="register_sub_title font-italic font-weight-bold ">{{ t("work.register additional text") }}</p>
       <v-btn
         color="primary"
         size="x-large"
