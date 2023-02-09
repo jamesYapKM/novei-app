@@ -1,6 +1,6 @@
 <template>
     <div class="timeline_container">
-        <div class="timeline_time v-col-sm-2">
+        <div class="timeline_time v-col-sm-2 pa-0">
             {{item.date}}
         </div>
         <div class="timeline_description v-col-sm-10">

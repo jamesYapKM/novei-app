@@ -24,7 +24,7 @@
         <Speakers/>
     </v-container>
   </section>
-  <section class="sec_timeline">
+  <section class="sec_timeline" id="agenda">
     <v-container>
         <Timeline/>
     </v-container>
