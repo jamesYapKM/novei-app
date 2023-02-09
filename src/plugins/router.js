@@ -27,11 +27,7 @@ const router = createRouter({
     history: import.meta.env.SSR
       ? createMemoryHistory()
       : createWebHistory(),
-    routes,
-    scrollBehavior(to, from, savedPosition) {
-      // always scroll to top
-      return { top: 0 , behavior: 'smooth',}
-    },
+    routes
 })
 
 export default router

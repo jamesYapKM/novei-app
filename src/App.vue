@@ -9,8 +9,9 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import { useI18n } from "vue-i18n";
+import { useRoute } from 'vue-router'
 import AppLayout from "~/AppLayout.vue";
 import ScrollToTop from "~/components/ScrollToTop.vue";
 
@@ -20,4 +21,18 @@ const onScroll = (e) => {
   isOffsetTop.value = e.target.scrollingElement.scrollTop == 0;
   // this.offsetTop = e.target.scrollingElement.scrollTop;
 };
+
+const route = useRoute()
+onMounted(() => {
+  if(route.hash){
+    const target = document.getElementById(route.hash.substring(1))?.getBoundingClientRect()?.top;
+    if(target > 0){
+      window.scrollTo({
+        top: target,
+        behavior: 'smooth'
+      })
+      console.log(route.hash, target)
+    }
+  }
+});
 </script>
