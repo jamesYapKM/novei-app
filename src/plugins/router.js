@@ -1,7 +1,11 @@
-import { createRouter, createWebHistory, createMemoryHistory } from 'vue-router'
+import {
+  createRouter,
+  createWebHistory,
+  createMemoryHistory,
+} from "vue-router";
 
-import Zoomtopia from '~/pages/work.vue'
-import WorkRegistration from '~/pages/WorkRegistration.vue'
+import Zoomtopia from "~/pages/work.vue";
+import WorkRegistration from "~/pages/WorkRegistration.vue";
 
 /*const pages = import.meta.glob('~/pages/*.vue')
 console.log(pages);
@@ -15,29 +19,30 @@ const routes = Object.keys(pages).map((path) => {
 })*/
 
 const routes = [
-    {path:"/", name: 'Home',component: Zoomtopia},
-    {path:"/register", name: 'register', component: WorkRegistration},
-    // {path:"/wilmar", name: 'wilmar',component: WilmarRegistration},
-    // {path:"/zoomtopiasingapore", name: 'zoomtopia',component: Zoomtopia, meta:{layout:"LayoutNoHeader"}},
-    // {path:"/zoomtopiasingapore/register", name: 'zoomtopia-register',component: ZoomtopiaRegistration, meta:{layout:"LayoutNoHeader"}},
-    {path: '/*', redirect: '/' },
-]
+  { path: "/", name: "Home", component: Zoomtopia },
+  { path: "/register", name: "register", component: WorkRegistration },
+  // {path:"/wilmar", name: 'wilmar',component: WilmarRegistration},
+  // {path:"/zoomtopiasingapore", name: 'zoomtopia',component: Zoomtopia, meta:{layout:"LayoutNoHeader"}},
+  // {path:"/zoomtopiasingapore/register", name: 'zoomtopia-register',component: ZoomtopiaRegistration, meta:{layout:"LayoutNoHeader"}},
+  { path: "/*", redirect: "/" },
+];
 
 const router = createRouter({
-    history: import.meta.env.SSR
-      ? createMemoryHistory()
-      : createWebHistory(),
-    routes,
-    scrollBehavior(to, from, savedPosition) {
-      // always scroll to top
-      if (to.hash) {
-        return {
-          el: to.hash,
-          behavior: 'smooth',
-        }
-      }
-      return { top: 0 , behavior: 'smooth',}
-    },
-})
+  history: import.meta.env.SSR ? createMemoryHistory() : createWebHistory(),
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    // always scroll to top
+    if (savedPosition) {
+      return savedPosition;
+    } else if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: "smooth",
+      };
+    } else {
+      return { top: 0, behavior: "smooth" };
+    }
+  },
+});
 
-export default router
+export default router;
