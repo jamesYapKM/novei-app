@@ -20,7 +20,7 @@ img {
     }
 }
 .sec_main_banner{
-    background: url('/training-02-scaled.jpg'), radial-gradient(100% 133.79% at 100% 100%, #3F6F9A 0%, #0D2A4C 53.04%, #0A2039 100%);
+    background: url('/zoom-room7-scaled.jpg'), radial-gradient(100% 133.79% at 100% 100%, #3F6F9A 0%, #0D2A4C 53.04%, #0A2039 100%);
     background-repeat: no-repeat;
     background-size: 100% auto;
     @include sm{
@@ -34,11 +34,11 @@ img {
         padding: 80px 0;
     }
     .col_banner_desc{
-        // background-color: rgba(66, 140, 255,.75);
-        background: url(/work-transformation-bg.jpg);
-        background-repeat: no-repeat;
-        background-size: auto 100%;
-        background-position: top right;
+        background-color: rgba(66, 140, 255,.75);
+        // background: url(/work-transformation-bg.jpg);
+        // background-repeat: no-repeat;
+        // background-size: auto 100%;
+        // background-position: top right;
         border-radius: 30px;
         padding: 40px;
     }

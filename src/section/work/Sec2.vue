@@ -13,7 +13,7 @@
       >
     </v-col>
     <v-col cols="12" md="6" class="order-1 order-md-2 text-center">
-      <img :src="imageUrl('/training-01-scaled.jpg')" class="rounded-xl" />
+      <img :src="imageUrl('/manufacturing-places-22.jpg')" class="rounded-xl" />
     </v-col>
   </v-row>
 </template>

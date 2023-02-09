@@ -4,11 +4,11 @@
       <Banner :showBotton="false" />
     </v-container>
   </section>
-  <section class="sec_speaker">
+  <!-- <section class="sec_speaker">
     <v-container>
       <Speakers />
     </v-container>
-  </section>
+  </section> -->
   <section class="sec_register">
     <v-container>
       <RegistratonForm></RegistratonForm>

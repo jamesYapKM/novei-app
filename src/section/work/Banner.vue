@@ -9,6 +9,8 @@
                     <span class="banner_date">{{ t('work.banner time')}}</span>
                 </p>
             </div>
+            <div class="div_banner_location" v-html="t('work.banner location')">
+            </div>
 
             <v-btn v-if="showBotton" rounded color="primary" size="x-large" @click="$router.push({name:'register'})">{{t('register now')}}</v-btn>
         </v-col>
