@@ -228,5 +228,6 @@
     "s_validation": {
         "required": "This field is required.",
         "email already use": "This email already registered."
-    }
+    },
+    "":""
 }
