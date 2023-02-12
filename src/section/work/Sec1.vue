@@ -3,7 +3,7 @@
     <v-col cols="12" md="6" class="pr-md-6 text-center">
       <img :src="imageUrl('/training-03-scaled.jpg')" class="rounded-xl" />
     </v-col>
-    <v-col cols="12" md="6">
+    <v-col cols="12" md="6" class="text-justify">
       <h1 class="about_title">{{ t("work.join us title") }}</h1>
       <span v-html="t('work.join us description')"></span>
       <v-btn

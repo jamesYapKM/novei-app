@@ -1,8 +1,8 @@
 <template>
     <v-row class="">
         <v-col md="8" lg="6" cols="12" class="order-md-1 order-2 col_banner_desc">
-            <h1 class="banner_main_title">{{ t('work.banner title')}} </h1>
-            <p class="banner_sub_title_1">{{ t('work.banner sub title')}} </p>
+            <h1 class="banner_main_title" v-html="t('work.banner title')"></h1>
+            <!-- <p class="banner_main_title">{{ t('work.banner sub title')}} </p> -->
             <div class="div_banner_time_and_desc">
                 <p class="div_banner_time">
                     <span class="banner_location">{{ t('work.banner date')}}</span>

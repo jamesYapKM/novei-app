@@ -4,7 +4,7 @@
           <h2 class="timeline_main_title">{{ t('agenda') }}</h2>
         </v-col>
         <v-col cols="12">
-          <h4 class="font-weight-bold text-h4">{{ t('work.banner title') }}</h4>
+          <h4 class="font-weight-bold text-h4">{{ t('work.agenda title') }}</h4>
         </v-col>
         <v-col cols="12" class="col-md-4 col-sm-6"  v-for="(item, i) in timelines" :key="'timeline-'+i">
             <ListItem :item="item"/>

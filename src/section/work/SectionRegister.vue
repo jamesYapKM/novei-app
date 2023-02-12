@@ -1,8 +1,8 @@
 <template>
   <v-row class="text-center">
     <v-col cols="12">
-      <h2 class="register_main_title">{{ t("work.register main title") }}</h2>
-      <p class="register_sub_title">{{ t("work.register sub title") }}</p>
+      <h2 class="register_main_title" v-html="t('work.register main title')"></h2>
+      <p class="register_sub_title" v-html="t('work.register sub title')"></p>
       <p class="register_sub_title font-italic font-weight-bold ">{{ t("work.register additional text") }}</p>
       <v-btn
         color="primary"
