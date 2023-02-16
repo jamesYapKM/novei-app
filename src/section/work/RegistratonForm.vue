@@ -212,7 +212,8 @@ export default {
       industry: null,
       noe: null,
       event_id:1,
-      ace: 0
+      ace: 0,
+      event: "work"
     }),
     industryClassifies: [
       "Advertising",
