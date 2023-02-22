@@ -25,6 +25,12 @@
           "name": "work.speaker inho name",
           "description": "work.speaker inho description",
           "company": "work.speaker inho company"
+        },
+        {
+          "image": "/speaker/lee.jpg",
+          "name": "work.speaker lee name",
+          "description": "work.speaker lee description",
+          "company": "work.speaker lee company"
         }
     ],
     "moderators":[
