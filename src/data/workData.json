@@ -31,6 +31,18 @@
           "name": "work.speaker lee name",
           "description": "work.speaker lee description",
           "company": "work.speaker lee company"
+        },
+        {
+          "image": "/speaker/paul.jpg",
+          "name": "work.speaker paul name",
+          "description": "work.speaker paul description",
+          "company": "work.speaker paul company"
+        },
+        {
+          "image": "/speaker/tjin.jpg",
+          "name": "work.speaker tjin name",
+          "description": "work.speaker tjin description",
+          "company": "work.speaker tjin company"
         }
     ],
     "moderators":[
