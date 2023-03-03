@@ -1,12 +1,6 @@
 {
     "speakers": [
         {
-          "image": "/speaker/kapur.png",
-          "name": "work.speaker kapur name",
-          "description": "work.speaker kapur description",
-          "company":"work.speaker kapur company"
-        },
-        {
           "image": "/speaker/lucas.jpg",
           "name": "work.speaker lucas name",
           "description": "work.speaker lucas description",
@@ -66,9 +60,9 @@
         "date": "1:30pm - 1:40pm SGT",
         "title": "work.timeline title 3",
         "description": "work.timeline description 3",
-        "speaker": "work.speaker kapur name",
-        "speaker_title": "work.speaker kapur description",
-        "speaker_company": "work.speaker kapur company"
+        "speaker": "work.speaker lucas name",
+        "speaker_title": "work.speaker lucas description",
+        "speaker_company": "work.speaker lucas company"
       },
       {
         "date": "1:40pm - 2:00pm SGT",
