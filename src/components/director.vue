@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card class="h-100">
     <v-card-text>
       <div class="d-flex flex-no-wrap">
         <div class="v-col-3 pa-0">
