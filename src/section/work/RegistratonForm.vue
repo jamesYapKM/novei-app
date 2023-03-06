@@ -193,14 +193,7 @@ export default {
     const { t } = useI18n();
     const route = useRoute();
     const path = computed(() => import.meta.env.VITE_baseUrl + route.fullPath);
-    return { t, CountryList, path };
-  },
-  components: {
-    AlertError,
-  },
-  data: () => ({
-    success: false,
-    form: new Form({
+    const form = ref(new Form({...{
       firstname: "",
       lastname: "",
       email: "",
@@ -214,7 +207,29 @@ export default {
       event_id:1,
       ace: 0,
       event: "work"
-    }),
+    }, ...route.query}));
+    return { t, CountryList, path, form };
+  },
+  components: {
+    AlertError,
+  },
+  data: () => ({
+    success: false,
+    /*form: new Form({...{
+      firstname: "",
+      lastname: "",
+      email: "",
+      confirmEmail: "",
+      country: "Singapore",
+      phone: "",
+      organization: "",
+      job: "",
+      industry: null,
+      noe: null,
+      event_id:1,
+      ace: 0,
+      event: "work"
+    }, ...route.query}),*/
     industryClassifies: [
       "Advertising",
       "Biotech/Pharma",
@@ -291,6 +306,7 @@ export default {
 
   methods: {
     async onSubmit() {
+      
       await this.form
         .post(register_url)
         .then((response) => {
