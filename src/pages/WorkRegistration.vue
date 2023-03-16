@@ -11,15 +11,16 @@
   </section> -->
   <section class="sec_register">
     <v-container>
-      <RegistratonForm></RegistratonForm>
+      <end-register></end-register>
+      <!-- <RegistratonForm></RegistratonForm> -->
     </v-container>
   </section>
 </template>
 
 <script setup>
 import Banner from "~/section/work/Banner.vue";
-import Speakers from "~/section/work/Speakers.vue";
-import RegistratonForm from "~/section/work/RegistratonForm.vue";
+// import Speakers from "~/section/work/Speakers.vue";
+import EndRegister from "~/section/work/EndRegister.vue";
 
 import { useMeta } from "vue-meta";
 import { useI18n } from "vue-i18n";
